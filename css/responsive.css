@@ -12,13 +12,13 @@
 }
 
 @media (max-width: 1750px) {
-    .hs-item .next-hs {
+    .advertisement-slider-item .next-hs {
         width: 210px;
         height: 250px;
         border: 10px solid #fff;
     }
 
-    .hs-item h2 {
+    .advertisement-slider-item h2 {
         font-size: 100px;
     }
 
@@ -42,11 +42,11 @@
         padding-left: 15px;
     }
 
-    .hs-item h2 {
+    .advertisement-slider-item h2 {
         font-size: 90px;
     }
 
-    .hs-item .next-hs {
+    .advertisement-slider-item .next-hs {
         display: none;
     }
 }
@@ -88,16 +88,16 @@
         z-index: 9;
     }
 
-    .hs-item {
+    .advertisement-slider-item {
         padding: 0px 85px;
         height: 800px;
     }
 
-    .hs-item h2 {
+    .advertisement-slider-item h2 {
         font-size: 65px;
     }
 
-    .hs-item .next-hs {
+    .advertisement-slider-item .next-hs {
         display: none;
     }
 
@@ -140,24 +140,24 @@
         margin-left: 0;
     }
 
-    .hero-slider .owl-dots {
+    .advertisement-slider .owl-dots {
         right: 100px;
     }
 
-    .hero-slider .owl-nav {
+    .advertisement-slider .owl-nav {
         right: 15px;
     }
 
-    .hs-item {
+    .advertisement-slider-item {
         padding: 250px 15px;
         height: auto;
     }
 
-    .hs-item h2 {
+    .advertisement-slider-item h2 {
         font-size: 50px;
     }
 
-    .hs-item .next-hs {
+    .advertisement-slider-item .next-hs {
         display: none;
     }
 
@@ -264,10 +264,10 @@
 
 @media only screen and (max-width: 479px) {
     .site-navbar {
-        padding: 15px;
+        padding: 15px 50px !important;
     }
 
-    .hs-item h2,
+    .advertisement-slider-item h2,
     .page-top-section h2 {
         font-size: 40px;
     }

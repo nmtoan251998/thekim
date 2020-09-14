@@ -14,7 +14,7 @@ $(window).on('load', function() {
 		Preloder
 	--------------------*/
 	$(".loader").fadeOut();
-	$("#preloder").delay(400).fadeOut("slow");
+	$("#spinner").delay(400).fadeOut("slow");
 
 });
 
@@ -22,7 +22,7 @@ $(window).on('load', function() {
 	/*------------------
 		Background Set
 	--------------------*/
-	$('.set-bg').each(function() {
+	$('.adv-bg-set').each(function() {
 		var bg = $(this).data('setbg');
 		$(this).css('background-image', 'url(' + bg + ')');
 	});
@@ -31,7 +31,7 @@ $(window).on('load', function() {
 	/*------------------
 		Hero Slider
 	--------------------*/
-    $(".hero-slider").owlCarousel({
+    $(".advertisement-slider").owlCarousel({
         loop: true,
         margin: 0,
         nav: true,

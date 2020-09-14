@@ -2,12 +2,12 @@
 <html lang="vi">
 <head>
 	<title>The KIM | The BLOUSE</title>
+	<link rel="icon" type="image/png" href="img/thekim/kimblouse_grayscale.png"/>
+
 	<meta charset="UTF-8">
 	<meta name="description" content="Instyle Fashion HTML Template">
 	<meta name="keywords" content="instyle, fashion, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/components.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -25,16 +26,15 @@
 </head>
 <body>
 	<!-- Page Preloder -->
-	<div id="preloder">
+	<div id="spinner">
 		<div class="loader"></div>
 	</div>
 
-	<!-- Header section -->
-	<header class="header-section">
+	<!-- Header navigation bar -->
+	<header>
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark site-navbar">
 			<a class="navbar-brand site-logo" href="index.html#">
-				<h2 style="text-transform: capitalize;">The<span> KIM</span></h2>
-				<p>The Blouse</p>
+				<img class="img-logo" src="img/thekim/kimblouse_grayscale.png" alt="image">
 			</a>
 			<button
 				class="navbar-toggler d-lg-none"
@@ -42,18 +42,21 @@
 				data-toggle="collapse"
 				data-target="#collapsibleNavId"
 				aria-controls="collapsibleNavId"
-				aria-expanded="false" aria-label="Toggle navigation">
+				aria-expanded="false"
+				aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+
 			<div class="collapse navbar-collapse" id="collapsibleNavId">
-				<!-- Main menu -->
 				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 					<li class="nav-item">
 						<a class="nav-link" href="index.html">Trang chủ</a>
 					</li>
+
 					<li class="nav-item">
-						<a class="nav-link" href="#">Tất cả sản phẩm</a>
+						<a class="nav-link" href="all-products.html">Tất cả sản phẩm</a>
 					</li>
+
 					<li class="nav-item">
 						<a class="nav-link" href="contact.html">Liên hệ</a>
 					</li>                                                                
@@ -63,7 +66,7 @@
 	</header>
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="img/contact.jpg">
+	<section class="page-top-section adv-bg-set" data-setbg="img/contact.jpg">
 		<div class="hero-social-warp">
 			<p>Kết nối với chúng tôi</p>
 			<div class="hero-social-links">
@@ -94,7 +97,7 @@
 							</div>
 							<div class="col-md-12">
 								<textarea placeholder="Ghi chú thêm"></textarea>
-								<a class="site-btn sb-dark">Gửi <i class="fa fa-angle-double-right"></i></a>
+								<a class="advertisement-item-btn sb-dark">Gửi <i class="fa fa-angle-double-right"></i></a>
 							</div>
 						</div>
 					</form>

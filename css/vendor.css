@@ -2009,8 +2009,6 @@
   .cl1 {color: #717fe0;}
   .cl2 {color: #333;}
   .cl3 {color: #666;}
-  .cl4 {color: #999;}
-  .cl5 {color: #222;}
   .cl6 {color: #888;}
   .cl7 {color: #b2b2b2;}
   .cl8 {color: #555;}
@@ -2108,76 +2106,13 @@
   
   /*//////////////////////////////////////////////////////////////////
   [ L-Text >= 26 ]*/
-  .ltext-101 {
-    font-family: Poppins-Regular;
-    font-size: 28px;
-    line-height: 1.2857;
-  }
-  
-  .ltext-102 {
-    font-family: Poppins-Bold;
-    font-size: 28px;
-    line-height: 1.1;
-  }
-  
-  .ltext-103 {
-    font-family: Poppins-Bold;
-    font-size: 36px;
-    line-height: 1.1;
-    text-transform: uppercase;
-  }
-  
-  .ltext-104 {
-    font-family: Poppins-Bold;
-    font-size: 60px;
-    line-height: 1.1;
-    text-transform: uppercase;
-  }
-  
-  .ltext-105 {
-    font-family: Poppins-Bold;
-    font-size: 50px;
-    line-height: 1.1;
-  }
-  
   .ltext-106 {
     font-family: Poppins-Bold;
     font-size: 36px;
     line-height: 1.2;
   }
   
-  .ltext-107 {
-    font-family: Poppins-Bold;
-    font-size: 30px;
-    line-height: 1.1;
-  }
-  
-  .ltext-108 {
-    font-family: Poppins-Bold;
-    font-size: 26px;
-    line-height: 1.3846;
-  }
-  
-  .ltext-109 {
-    font-family: Poppins-Bold;
-    font-size: 36px;
-    line-height: 1.2;
-  }
-  
-  
   /*---------------------------------------------*/
-  .ltext-201 {
-    font-family: PlayfairDisplay-Bold;
-    font-size: 60px;
-    line-height: 1.1;
-    text-transform: uppercase;
-  }
-  
-  .ltext-202 {
-    font-family: PlayfairDisplay-Regular;
-    font-size: 28px;
-    line-height: 1.2857;
-  }
   
   
   
@@ -2192,11 +2127,6 @@
   .size-101 {
     min-width: 161px;
     height: 46px;
-  }
-  
-  .size-102 {
-    min-width: 139px;
-    height: 40px;
   }
   
   .size-103 {
@@ -2409,7 +2339,6 @@
      BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND 
   ==================================================================*/
   .bg-none {background-color: transparent;}
-  .bg0 {background-color: #fff;}
   .bg1 {background-color: #717fe0;}
   .bg2 {background-color: #e6e6e6;}
   .bg3 {background-color: #222;}
@@ -2451,11 +2380,7 @@
   .bor1 {
     border-radius: 23px;
   }
-  
-  .bor2 {
-    border-radius: 20px;
-  }
-  
+
   .bor3 {
     border-bottom: 1px solid transparent;
   }
@@ -2819,31 +2744,8 @@
   [ Hover ]*/
   
   .hov-cl0:hover {color: #fff;}
-  .hov-bg0:hover {background-color: #fff;}
   .hov-cl1:hover {color: #717fe0;}
   .hov-bg1:hover {background-color: #717fe0;}
-  
-  /*---------------------------------------------*/
-  .hov-img0 {
-    display: block;
-    overflow: hidden;
-  }
-  
-  .hov-img0 img{
-    width: 100%;
-    -webkit-transition: transform 0.9s ease;
-    -o-transition: transform 0.9s ease;
-    -moz-transition: transform 0.9s ease;
-    transition: transform 0.9s ease;
-  }
-  
-  .hov-img0:hover img {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-  }
   
   /*---------------------------------------------*/
   .hov-btn1:hover {
@@ -2865,8 +2767,8 @@
   
   /*---------------------------------------------*/
   .hov-btn3:hover {
-    border-color: #717fe0;
-    background-color: #717fe0;
+    border-color: #ff006c;
+    background-color: #ff006c;
     color: #fff;
   }
   

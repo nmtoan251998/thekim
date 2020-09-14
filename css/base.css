@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;
+    height: unset !important;
     font-family: "Helvetica 65 Medium", sans-serif;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
