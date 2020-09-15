@@ -1,7 +1,8 @@
 .site-navbar {
     transition: 200ms;
-    padding: 2em 3rem;
-    background-color: #262626 !important;
+    padding: 0 3rem !important;
+    min-height: 120px;
+    background-color: transparent !important;
 }
 
 .top-nav-bar {
@@ -12,14 +13,9 @@
 }
 
 .top-navbar-scroll {
-    padding: .2em 3rem !important;
-    /* background-color: rgba(32, 32, 32, 0.185) !important; */
-    background-color: transparent !important;
-    box-shadow: 0px 5px 10px -10px rgba(0,0,0,0.82);
-}
-
-.top-navbar-scroll .nav-item .nav-link {
-    color: #000 !important;
+    background-color: #000 !important;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.82);
+    min-height: 80px;
 }
 
 .top-navbar-scroll .nav-item .nav-link:hover {
@@ -50,7 +46,7 @@
 
 .spad {
     padding-top: 115px;
-    padding-bottom: 115px;
+    padding-bottom: 80px;
 }
 
 .advertisement-item-btn {
@@ -173,7 +169,10 @@ border-right: 9px solid #f62a66;
 .site-logo {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .site-logo-text {
     margin-left: 1em;
 }
@@ -228,6 +227,7 @@ Hero Section
 
 .advertisement {
     position: relative;
+    margin-top: -120px;
 }
 
 .advertisement-slider-item {
@@ -679,21 +679,21 @@ display: inline-block;
 width: 75px;
 }
 
-.copyright {
+.contact {
 padding-top: 80px;
 text-align: center;
 }
 
-.copyright i {
+.contact i {
 color: #5d5458;
 }
 
-.copyright a {
+.contact a {
 color: #081624;
 text-decoration: underline;
 }
 
-.copyright a:hover {
+.contact a:hover {
 color: #ff006c;
 }
 
@@ -1744,15 +1744,13 @@ top: 42px;
 left: 12px;
 }
 
-.footer {
-    padding-bottom: 2rem;
-}
-
-.copyright {
+.contact {
     padding-top: 0;
 }
 
-.copyright .p-small {
+.p-small {
+    width: 80%;
+    margin: 0 auto;
     padding-top: 20px;
     border-top: 1px solid #ccc;
 }
@@ -1801,4 +1799,116 @@ left: 12px;
 
 .email-sup-text {
     color: rgb(34, 32, 37) !important;
+}
+
+.cooperation {
+    background-color: #000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cooperation-text {
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 17px;
+    color: #d8d8d8;
+    word-spacing: 4px;
+}
+
+.service {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-item {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.service-item:not(:last-child) {
+    margin-right: 8em;
+}
+
+.service-icon {
+    font-size: 2.6em;
+    margin-right: 15px;
+    color: #d8d8d8;
+}
+
+.service-text {
+    color: #d8d8d8;
+}
+
+
+.branding-authorized {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.branding-authorized-item {
+    flex: 1 1 0;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.branding-authorized-item:not(:last-child) {
+    margin-right: 8em;
+}
+
+.branding-authorzied-text {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.branding-authorized-logo {
+    min-width: 50px;
+    max-width: 100px;
+    margin-right: 3px;
+}
+
+.branding-authorized-logo-bct {
+    min-width: 140px;
+    max-width: 180px;
+}
+
+.branding-authorized-logo-vnpay {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.branding-authorized-logo-momo {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.branding-authorized-logo-mastercard {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.branding-authorized-logo-visa {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.branding-authorized-logo-viettelpost {
+    min-width: 120px;
+    max-width: 140px;
 }
