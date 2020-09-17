@@ -225,7 +225,7 @@ justify-content: center;
 -ms-flex-align: center;
 align-items: center;
 text-align: center;
-padding: 0px 145px;
+/* padding: 0px 145px; */
 overflow: hidden;
 }
 
@@ -1755,7 +1755,7 @@ left: 12px;
 }
 
 .all-product-header {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     text-transform: uppercase;
@@ -1921,4 +1921,8 @@ left: 12px;
 .author-img-container {
     display: flex;
     justify-content: center;
+}
+
+.contact-header {
+    font-size: 1.6rem;
 }

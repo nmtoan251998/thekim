@@ -55,10 +55,15 @@
 
 		<link rel="stylesheet" href="css/components.css"/>
 		<link rel="stylesheet" href="css/navbar-scroll.css"/>
+		<link rel="stylesheet" href="css/scroll-to-top.css"/>
+
 
 	</head>
 
 	<body>
+		<!-- Scroll to top -->
+		<a class="scroll-to-top"></a>
+
 		<!-- Loader -->
 		<div id="spinner">
 			<div class="loader"></div>
@@ -164,7 +169,7 @@
 		<!-- All Product -->
 		<section class="all-products mt-5 mb-5">
 			<div class="container">
-				<div class="py-5 mb-3">
+				<div class="pt-3 mb-3">
 					<h3 class="all-product-header">The KIM Blouse</h3>
 				</div>
 
@@ -637,7 +642,7 @@
 				</div>
 			</div>
 
-			<div class="cooperation mt-2 px-3">
+			<div class="cooperation mt-2">
 				<p class="cooperation-text">© The KIM 2020 - OFFICIAL WEBSITE | VIETNAM | IRELAND</p>
 			</div>
 
@@ -670,7 +675,8 @@
 			document.querySelector('#submit-email').addEventListener('click', (e) => e.preventDefault());
 
 			// sticky nav bar
-			window.addEventListener('scroll', () => {
+			window.addEventListener('scroll', (e) => {
+				e.preventDefault();
 				const yPos = window.scrollY;
 
 				const navbar = document.querySelector('#top-navbar');
@@ -686,6 +692,28 @@
 					}
 				}
 			});
+		</script>
+
+		<script>
+			const scrollTopBtn = document.querySelector('.scroll-to-top');
+
+			// sticky nav bar
+			window.addEventListener('scroll', () => {
+				const yPos = window.scrollY;
+				const btnDisplayPos = 550;
+				if (yPos >= btnDisplayPos) {
+					scrollTopBtn.classList.add('show');
+				} else {
+					scrollTopBtn.classList.remove('show');
+				}
+			});
+
+			scrollTopBtn.addEventListener('click', function(e) {
+				e.preventDefault();
+				$('html, body').animate({ scrollTop: 0 }, '300');
+			});
+
+
 		</script>
 	</body>
 </html>

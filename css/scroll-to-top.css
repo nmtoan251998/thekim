@@ -1,0 +1,37 @@
+.scroll-to-top {
+    display: inline-block;
+    background-color: #000;
+    width: 2.6rem;
+    height: 2.6rem;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.scroll-to-top::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+.scroll-to-top:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+  
