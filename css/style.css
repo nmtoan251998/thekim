@@ -147,6 +147,10 @@ border-right: 9px solid #f62a66;
 }
 
 .site-logo {
+    display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,6 +166,7 @@ font-size: 30px;
 color: #fff;
 text-transform: uppercase;
 font-weight: 400;
+margin-bottom: 0;
 }
 
 .site-logo h2 span {
@@ -170,9 +175,10 @@ color: #ff006c;
 
 .site-logo p {
 text-transform: uppercase;
-color: #fff;
-opacity: 0.43;
-font-size: 9px;
+color: #6b6b6b;
+/* opacity: 0.43; */
+font-weight: 700;
+font-size: 10px;
 letter-spacing: 0.29em;
 margin-bottom: 0;
 }
@@ -216,6 +222,8 @@ Hero Section
 .advertisement-slider-item {
 height: 974px;
 display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
 display: -ms-flexbox;
 display: flex;
 -webkit-box-pack: center;
@@ -264,11 +272,6 @@ font-size: 18px;
 padding: 8px 33px;
 margin-top: -21px;
 background: #ff006c;
-}
-
-.advertisement-slider-item .advertisement-site-btn:hover {
-    background-color: #fff;
-    color: #000;
 }
 
 .owl-item.active .advertisement-slider-item h2,
@@ -342,7 +345,7 @@ transform: rotate(90deg);
 
 .advertisement-slider .owl-dots {
 position: absolute;
-right: 210px;
+right: 100px;
 bottom: 34px;
 }
 
@@ -363,7 +366,7 @@ margin-right: 0;
 
 .advertisement-slider .owl-nav {
 position: absolute;
-right: 130px;
+right: 20px;
 bottom: 25px;
 }
 
@@ -660,6 +663,23 @@ margin-bottom: 15px;
 .footer-widget.contact-widget span {
 display: inline-block;
 width: 75px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-icon-container {
+    width: 15%;
+    text-align: left;
+    margin-right: 10px;
+}
+.footer-link-container {
+    width: 70%;
+    text-align: left;
 }
 
 .contact {
@@ -1746,7 +1766,7 @@ left: 12px;
 .footer .icon-footer {
     font-size: 2em;
     color: #000;
-    margin-right: 10px;
+    width: 100%;
 }
 
 .img-logo {
@@ -1802,6 +1822,10 @@ left: 12px;
 
 .service {
     background-color: #000;
+    display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1921,6 +1945,10 @@ left: 12px;
 .author-img-container {
     display: flex;
     justify-content: center;
+}
+
+.author-img {
+    min-width: 50%;
 }
 
 .contact-header {
