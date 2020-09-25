@@ -16,6 +16,20 @@
     padding-top: 15px;
     line-height: 1.4;
     text-transform: uppercase;
+
+}
+.product-item-2 h3{
+    font-family: Montserrat, sans-serif;
+
+}
+.price{
+    font-size: 24px;
+    color: #c4c1c3;
+    font-family: Quicksand, sans-serif;
+    font-weight: bold;
+}
+.price del{
+    font-size: 18px;
 }
 
 .adv-bg-set {
@@ -30,17 +44,16 @@
 }
 
 .advertisement-item-btn {
-    display: inline-block;
-    border: none;
 
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
     min-width: 186px;
     padding: 18px 40px;
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     background: transparent;
 
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
-    text-transform: uppercase;
     text-align: center;
     text-transform: uppercase;
     line-height: normal;
@@ -48,38 +61,40 @@
     cursor: pointer;
 
     transition: 250ms !important;
+    overflow: hidden;
 }
 
 .advertisement-item-btn:hover {
     color: #fff !important;
     background-color: #000;
-    border: 3px solid #000;
+    border-color: #000;
 }
+
 
 .all-product-btn {
     display: inline-block;
 
-    border: none;
     min-width: 186px;
-    padding: 14px 30px;
-    border: 3px solid #000;
-    background: transparent;
+    padding: 18px 30px;
+    border: 1px solid #000;
+    background: #000;
 
     font-size: 14px;
-    color: #000;
+    color: #fff;
     line-height: normal;
-    text-transform: uppercase;
     text-transform: uppercase;
     text-align: center;
 
     cursor: pointer;
 
     transition: 250ms;
+    position: relative;
 }
 
 .all-product-btn:hover {
-    background: #000;
-    color: #fff;
+    color: #000 !important;
+    background-color: #fff;
+    border-color: #000;
 }
 
 .advertisement-item-btn i {
@@ -88,7 +103,7 @@
 }
 
 .advertisement-item-btn.sb-dark {
-    border: 3px solid #000;
+    border: 1px solid #000;
     color: #000;
 }
 
@@ -216,7 +231,6 @@ Hero Section
 
 .advertisement {
     position: relative;
-    margin-top: -120px;
 }
 
 .advertisement-slider-item {
@@ -238,13 +252,14 @@ overflow: hidden;
 }
 
 .advertisement-slider-item h2 {
-font-size: 9rem;
-color: #fff;
-font-weight: 400;
-margin-bottom: 20px;
-position: relative;
-top: 50px;
-opacity: 0;
+    font-size: 6rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    top: 50px;
+    opacity: 0;
+    text-transform: uppercase;
 }
 
 .advertisement-slider-item .advertisement-item-btn {
@@ -393,13 +408,14 @@ padding-top: 15px;
 margin-bottom: 40px;
 line-height: 1.4;
 font-weight: 800;
+
 }
 
 .intro-text p {
 margin-bottom: 50px;
 font-weight: 500;
+    font-family: Quicksand, sans-serif;
 }
-
 /*------------------
 Portfolio Section
 ---------------------*/
@@ -1273,14 +1289,14 @@ font-size: 16px;
 .comment-form input,
 .comment-form textarea {
 width: 100%;
-height: 63px;
-padding: 10px 28px;
+height: 55px;
+padding: 8px 15px;
 margin-bottom: 24px;
 font-size: 14px;
 font-family: "Helvetica 45 Light", sans-serif;
 color: #081624;
 font-weight: 400;
-border: 3px solid #e3e3e3;
+border: 1px solid #e3e3e3;
 }
 
 .comment-form textarea {
@@ -1693,6 +1709,17 @@ padding: 2.5em 0;
     flex-direction: column;
     -ms-align-items: flex-start;
 	align-items: flex-start;
+    background-color: #fff;
+    position: relative;
+    margin-top: -70px;
+    left: 30px;
+    padding: 5px 10px;
+}
+
+.all-product-item-desc .cl3{
+    font-family: Quicksand, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .all-product-item-txt-child2 {
@@ -1777,7 +1804,8 @@ left: 12px;
 .all-product-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 50px;
+    margin-bottom: 24px;
     text-transform: uppercase;
     color: #222;
 }
@@ -1787,8 +1815,10 @@ left: 12px;
 }
 
 .all-product-item-name {
-    color: #999;
-
+    font-family: Quicksand, sans-serif!important;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
     padding-bottom: 6px;
 
     -webkit-transition: all 0.4s;
@@ -1924,9 +1954,7 @@ left: 12px;
 .featured-product-container {
     overflow: hidden;
     padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-    border-radius: 4px;
+    margin: 0 0 10px 0;
 }
 .featured-product {
     -webkit-transition: transform 0.5s ease;
@@ -1950,11 +1978,74 @@ left: 12px;
 }
 
 .author-img {
-    border-radius: 4px;
     min-width: 90%;
     /* max-width: 100%; */
 }
 
 .contact-header {
     font-size: 1.6rem;
+}
+.get-notification .form-control{
+    border-width: 1px!important;
+    height: 55px;
+    padding-left: 15px;
+
+}
+.get-notification .btn{
+    margin-left: -1px;
+    border-width: 1px!important;
+    background-color: #fff!important;
+    color: #000!important;
+
+}
+.get-notification .btn:hover{
+    background-color: #000!important;
+    color: #fff!important;
+    border-color: #fff!important;
+}
+.bg-fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.footer h4{
+    font-family: Montserrat, sans-serif;
+}
+.footer-item{
+    font-family: Quicksand, sans-serif;
+}
+.pt90p{
+    padding-top: 90%;
+}
+.img-no{
+    background-repeat: no-repeat;
+}
+.img-full-h{
+    background-size: auto 100%;
+}
+.img-full-w{
+    background-size: 100% auto;
+}
+.img-center{
+    background-position: center;
+}
+.img-cover{
+    background-size: cover;
+}
+
+.max-w180{
+ max-width: 180px;
+}
+
+.t-black{
+    color: #000;
+}
+a.t-black:hover{
+    color: #ff006c;
 }
