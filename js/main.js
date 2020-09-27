@@ -36,7 +36,6 @@ $(window).on('load', function() {
     	animateIn: 'fadeIn',
 		navText: ['', ''],
         smartSpeed: 1200,
-		autoplay: false,
 		mouseDrag: false,
 		autoplay: true,
 		startPosition: 'URLHash'
@@ -48,7 +47,6 @@ $(window).on('load', function() {
 	--------------------*/
 	$(".blog-slider").owlCarousel({
         loop: true,
-        margin: 0,
         nav: true,
         dots: false,
 		navText: ['', ''],
@@ -63,13 +61,12 @@ $(window).on('load', function() {
 			}
 		}
 	});
-	
+
 	/*------------------
 		Award Slider
 	--------------------*/
 	$(".award-slider").owlCarousel({
         loop: true,
-        margin: 0,
         nav: true,
         dots: true,
 		navText: ['', ''],
@@ -92,13 +89,12 @@ $(window).on('load', function() {
 	});
 	$(".award-slider").append('<div class="owl-controls"></div>');
 	$(".award-slider .owl-nav, .award-slider .owl-dots").appendTo('.award-slider .owl-controls');
-	
-	
+
+
 	/*------------------
 		Portfolio Slider
 	--------------------*/
 	$(".portfolio-slider").owlCarousel({
-        margin: 0,
         nav: true,
         dots: true,
 		navText: ['', ''],
@@ -124,8 +120,8 @@ $(window).on('load', function() {
 	});
 	$(".portfolio-slider").append('<div class="owl-controls"></div>');
 	$(".portfolio-slider .owl-nav, .portfolio-slider .owl-dots").appendTo('.portfolio-slider .owl-controls');
-	
-	
+
+
 	/*------------------
 		Back to top
 	--------------------*/
@@ -133,7 +129,7 @@ $(window).on('load', function() {
 		$("html, body").animate({scrollTop: 0}, 1000);
 	 });
 
-	
+
 
 
 })(jQuery);

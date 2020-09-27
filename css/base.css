@@ -1,15 +1,22 @@
 html, body {
     height: unset !important;
-    font-family: "Helvetica 65 Medium", sans-serif;
+    font-family: "Montserrat", sans-serif;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
+body{
 
+    /*background: #f7f7f7!important;*/
+    background: transparent;
+}
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     color: #081624;
-}
 
+}
+h1,h2,h3{
+    font-family: Montserrat, sans-serif;
+}
 h1 { font-size: 70px; }
 h2 { font-size: 36px; }
 h3 { font-size: 30px; }
@@ -17,11 +24,37 @@ h4 { font-size: 24px; }
 h5 { font-size: 18px; }
 h6 { font-size: 16px; }
 
+@media screen and (max-width: 991px){
+
+    h1 { font-size: 50px; }
+    h2 { font-size: 32px; }
+    h3 { font-size: 28px; }
+    h4 { font-size: 20px; }
+}
+@media screen and (max-width: 768px){
+
+    h1 { font-size: 45px; }
+    h2 { font-size: 30px; }
+    h3 { font-size: 25px; }
+    h4 { font-size: 18px; }
+    h5 { font-size: 16px; }
+    h6 { font-size: 14px; }
+}
+
+@media screen and (max-width: 567px){
+
+    h1 { font-size: 40px; }
+    h2 { font-size: 28px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 17px; }
+}
+
+
 p {
     font-size: 16px;
     color: #71767b;
     line-height: 1.8;
-    font-family: "Helvetica 45 Light", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 img { max-width: 100%; }
@@ -44,3 +77,9 @@ ul, ol {
     padding: 0;
     margin: 0;
 }
+.t-pink{
+    color: #ee4266;
+}
+
+
+
