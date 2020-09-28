@@ -10,11 +10,12 @@
     <meta name="keywords" content="instyle, fashion, html">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css">
     <link rel="stylesheet" href="./css/main.css"/>
     <title>History</title>
 </head>
 <body>
-    <div class="container">
+    <div id="fullpage" class="container">
         <div class="section">
             <div class="content">
                 <h2>Lịch sử áo Blouse</h2>
@@ -57,14 +58,14 @@
                 </p>
             </div>
         </div>
-        <div class="section">
-            <div class="content">
-                <h2>Section One Title</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad et illo impedit nemo numquam optio sequi sint voluptate? Aperiam, commodi doloremque ex exercitationem incidunt natus sequi tempore voluptatibus!
-                </p>
-            </div>
-        </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            licenseKey: 'YOUR KEY HERE',
+            // sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+        });
+    </script>
 </body>
 </html>
