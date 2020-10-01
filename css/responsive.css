@@ -5,7 +5,7 @@
     }
 
     .advertisement-slider-item h2 {
-        font-size: 5rem !important;
+        font-size: 6rem !important;
     }
     .all-product-header{
         font-size: 30px;
@@ -26,7 +26,7 @@
     }
 
     .advertisement-slider-item h2 {
-        font-size: 50px;
+        font-size: 8rem;
     }
 
     .blog-slider .owl-nav {
@@ -68,10 +68,6 @@
     .site-navbar.navbar-dark .navbar-nav .nav-link {
         padding-right: 15px;
         padding-left: 15px;
-    }
-
-    .advertisement-slider-item h2 {
-        font-size: 40px;
     }
 
     .advertisement-slider-item .next-hs {

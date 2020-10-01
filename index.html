@@ -19,6 +19,8 @@
 
 	<!-- Client Said -->
 	<link rel="stylesheet" href="css/vendor/animate.min.css">
+	<!--	Video css-->
+	<link rel="stylesheet" href="https://vjs.zencdn.net/5-unsafe/video-js.css">
 
 	<!-- Email Subscription -->
 	<link rel="stylesheet" href="css/vendor/aos.min.css">
@@ -482,24 +484,10 @@
 	</div>
 </section>
 
-<section class="our-story py-lg-5 py-md-4 py-3">
-	<div class="container text-center">
-		<h2 class="all-product-header">
-			Câu Chuyện Chiếc Áo Blouse
-		</h2>
-		<p class="max-w770 mb-5 ml-auto mr-auto">
-			Founded by Lara Francisco, PA-C, Medelita provides the medical community with uniforms and services that only someone working in medicine could produce. Constantly innovating, we remain devoted to upholding the highest standard of quality, service, and sustainability in the uniform industry.
-		</p>
-		<div class="max-w770 ml-auto mr-auto">
-			<video style="outline: none" width="100%" controls src="video/Pexels%20Videos%202335977.mp4">
 
-			</video>
-		</div>
-	</div>
-</section>
 
 <!--Partner-->
-<section class="partners pt-5 pb-5">
+<section class="partners bg-white pt-5 pb-5">
 	<div class="container text-center">
 		<h2 class="sub-title mb-5 text-uppercase">Đối tác của chúng tôi</h2>
 		<div class="row justify-content-center">
@@ -513,7 +501,27 @@
 	</div>
 </section>
 <!--End partner-->
+<section class="our-story py-lg-5 py-md-4 py-3 bg-white">
+	<div class="container text-center">
+		<h2 class="all-product-header">
+			OUR STORY
+		</h2>
+		<p class="max-w770 mb-5 ml-auto mr-auto">
+			Founded by Lara Francisco, PA-C, Medelita provides the medical community with uniforms and services that only someone working in medicine could produce. Constantly innovating, we remain devoted to upholding the highest standard of quality, service, and sustainability in the uniform industry.
+		</p>
+		<div id="instructions">
 
+			<video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px"
+				   controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+				   data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+				<source src="video/Pexels%20Videos%202335977.mp4" type='video/mp4' />
+				<!--					<source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />-->
+			</video>
+
+
+		</div>
+	</div>
+</section>
 <!-- Footer -->
 <footer class="footer bg-white">
 	<div class="service">
@@ -633,6 +641,7 @@
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <script src="js/main_3.js"></script>
+<script src="https://vjs.zencdn.net/5-unsafe/video.js"></script>
 <script src="js/main.js"></script>
 
 <script src="js/email-webhook.js"></script>
