@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee231dc3-103d-44e9-ace6-5af960086e1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/all-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/navbar-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scroll-to-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/scroll-to-top.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/selling.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/selling.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/vendor2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/vendor2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/partners/eye_care.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partners/eye_care.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1601468089" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="style/history-page" />
+                    <option name="lastUsedInstant" value="1601194877" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1huufdN6LGBmnYAihDR6qAtf6AP" />
   <component name="ProjectViewState">
@@ -36,7 +54,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,10 +72,17 @@
       <updated>1600873403830</updated>
       <workItem from="1600873405565" duration="10242000" />
       <workItem from="1601003748726" duration="6085000" />
+      <workItem from="1601468073509" duration="3309000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="683" y="147" key="SettingsEditor" timestamp="1601181334589">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="683" y="147" key="SettingsEditor/0.23.1680.970@0.23.1680.970" timestamp="1601181334589" />
   </component>
 </project>
