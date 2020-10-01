@@ -252,7 +252,7 @@ overflow: hidden;
 }
 
 .advertisement-slider-item h2 {
-    font-size: 8rem;
+    font-size: 9rem;
     color: #fff;
     font-weight: normal;
     margin-bottom: 20px;
@@ -823,7 +823,6 @@ margin-right: 0;
 text-align: center;
 border: 3px solid #3b3f42;
 padding: 60px 20px 10px;
-padding: 60px 20px 10px;
 min-height: 305px;
 background: #fff;
 -webkit-transition: all 0.4s;
@@ -834,7 +833,7 @@ transition: all 0.4s;
 width: 77px;
 height: 77px;
 margin: 0 auto 20px;
-background-image: url("../img/award-icon.png");
+/*background-image: url("../img/award-icon.png");*/
 background-repeat: no-repeat;
 padding-top: 20px;
 font-size: 16px;
@@ -863,7 +862,7 @@ border: 3px solid #ff006c;
 }
 
 .award-box:hover .award-year {
-background-image: url("../img/award-icon-white.png");
+/*background-image: url("../img/award-icon-white.png");*/
 }
 
 .award-box:hover .award-year,
@@ -2086,4 +2085,12 @@ a.t-black:hover{
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%);
+}
+
+.partners {
+    background-color: #ffffff;
+}
+
+.our-story {
+    background-color: #f6f6f6;
 }
