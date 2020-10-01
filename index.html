@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	<!-- Vendor fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
@@ -42,6 +44,8 @@
 
 	<!-- TYPOGRAPHY -->
 	<link rel="stylesheet" href="css/fontface.css"/>
+	<!-- Video css	-->
+	<link rel="stylesheet" href="https://vjs.zencdn.net/5-unsafe/video-js.css">
 	<!-- MAIN -->
 	<link rel="stylesheet" href="css/style.css"/>
 
@@ -501,16 +505,24 @@
 <!--End partner-->
 <section class="our-story py-lg-5 py-md-4 py-3 bg-white">
 	<div class="container text-center">
-		<h2 class="all-product-header">
+		<h2 class="mb-3">
 			OUR STORY
 		</h2>
 		<p class="max-w770 mb-5 ml-auto mr-auto">
 			Founded by Lara Francisco, PA-C, Medelita provides the medical community with uniforms and services that only someone working in medicine could produce. Constantly innovating, we remain devoted to upholding the highest standard of quality, service, and sustainability in the uniform industry.
 		</p>
-		<div class="max-w770 ml-auto mr-auto">
-			<video style="outline: none" width="100%" controls src="video/Pexels%20Videos%202335977.mp4">
+		<div class=" ml-auto mr-auto">
+			<div class="container">
+				<div id="instructions">
 
-			</video>
+					<video id="my_video_1" class="video-js vjs-default-skin" width="100%" height="auto"
+						   controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+						   data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+						<source src="video/Pexels%20Videos%202335977.mp4" type='video/mp4' />
+<!--						<source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />-->
+					</video>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -631,7 +643,7 @@
 <script src="js/scrollax.min.js"></script>
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
+<script src="https://vjs.zencdn.net/5-unsafe/video.js"/>
 <script src="js/main_3.js"></script>
 <script src="js/main.js"></script>
 
