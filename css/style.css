@@ -7,9 +7,6 @@
     white-space: nowrap;
 }
 
-.top-navbar-scroll .nav-item .nav-link:hover {
-    color: #91BDDE !important;
-}
 
 .section-title {
     margin-bottom: 110px;
@@ -211,16 +208,28 @@ background-color: #3b3f42 !important;
 }
 
 .site-navbar.navbar-dark .navbar-nav .nav-link {
-color: #fff;
-font-weight: 400;
-font-size: 14px;
-text-transform: uppercase;
-padding-right: 25px;
-padding-left: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 25px;
+    padding-left: 25px;
+    position: relative;
+}
+.site-navbar.navbar-dark .navbar-nav .nav-link:before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 25px;
+    transition: all .2s ease-in-out;
 }
 
-.site-navbar.navbar-dark .navbar-nav .nav-link:hover {
-color:  #91BDDE;
+.site-navbar.navbar-dark .navbar-nav .nav-link:hover:before {
+    width: 70%;
 }
 
 .social-links a {
@@ -1652,6 +1661,7 @@ padding: 2.5em 0;
 }
 
 .all-product-item-pic img {
+    object-fit: contain;
     width: 100%;
     -webkit-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
@@ -1991,8 +2001,9 @@ left: 12px;
 }
 
 .author-img {
-    min-width: 90%;
-    /* max-width: 100%; */
+    width: 100%;
+    object-fit: contain;
+    height: auto;
 }
 
 .contact-header {
@@ -2120,4 +2131,14 @@ a.t-black:hover{
 
 .vjs-playback-rate-value {
     visibility: hidden !important;
+}
+.pt150p{
+    padding-top: 150%;
+}
+.author-img{
+    background-image: url("../img/blahblah.jpg");
+}
+.branding-authorized-logo-viettelpost{
+    width: 140px;
+    height: 88px;
 }

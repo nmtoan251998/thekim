@@ -218,7 +218,7 @@
     }
 
     .intro-text {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .footer-widget {
@@ -413,6 +413,10 @@
 
     .site-navbar {
         padding: 0px 20px !important;
+    }
+    .author-img{
+        max-width: 375px;
+        height: auto;
     }
 }
 
