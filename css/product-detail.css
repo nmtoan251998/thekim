@@ -47,12 +47,8 @@ button {
 .p-t-60 {padding-top: 60px;}
 .p-t-65 {padding-top: 65px;}
 
-.p-l-25 {
-    padding-left: 25px;
-}
-.p-r-30 {
-    padding-right: 30px;
-}
+.p-l-25 {padding-left: 25px;}
+.p-r-30 {padding-right: 30px;}
 
 .p-b-7 {padding-bottom: 7px;}
 .p-b-10 {padding-bottom: 10px;}
@@ -65,10 +61,14 @@ button {
 .m-tb-10 {margin-top: 10px;}
 .m-t-50 {margin-top: 50px;}
 
-.buy-product {
-    flex-direction: column;
-}
+.m-lr-auto {margin-left: auto; margin-right: auto;}
+
+.buy-product {flex-direction: column;}
 
 .all-product-btn {
     margin-top: 10px;
 }
+
+.txt-center {text-align: center;}
+.wrap-pic-w {display: block;}
+.wrap-pic-w img {width: 100%;}
