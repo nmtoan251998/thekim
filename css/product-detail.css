@@ -1,0 +1,74 @@
+*, *:before, *:after {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #666666;
+
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a:focus {outline: none;}
+a:hover {text-decoration: none;}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+input, textarea, label {
+	display: block;
+	outline: none;
+	border: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.fs-16 {font-size: 16px;}
+
+.p-t-5 {padding-top: 5px;}
+.p-t-23 {padding-top: 23px;}
+.p-t-33 {padding-top: 33px;}
+.p-t-43 {padding-top: 43px;}
+.p-t-60 {padding-top: 60px;}
+.p-t-65 {padding-top: 65px;}
+
+.p-l-25 {
+    padding-left: 25px;
+}
+.p-r-30 {
+    padding-right: 30px;
+}
+
+.p-b-7 {padding-bottom: 7px;}
+.p-b-10 {padding-bottom: 10px;}
+.p-b-14 {padding-bottom: 14px;}
+.p-b-20 {padding-bottom: 20px;}
+.p-b-30 {padding-bottom: 30px;}
+.p-b-40 {padding-bottom: 40px;}
+.p-b-60 {padding-bottom: 60px;}
+
+.m-tb-10 {margin-top: 10px;}
+.m-t-50 {margin-top: 50px;}
+
+.buy-product {
+    flex-direction: column;
+}
+
+.all-product-btn {
+    margin-top: 10px;
+}

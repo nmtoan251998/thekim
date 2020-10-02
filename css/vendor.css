@@ -1733,11 +1733,11 @@
   }
   
   .num-product {
-    width: calc(100% - 90px);
-    height: 100%;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    background-color: #f7f7f7;
+      width: calc(100% - 90px);
+      height: 100%;
+      border-left: 1px solid #e6e6e6;
+      border-right: 1px solid #e6e6e6;
+      background-color: #f7f7f7;
   }
   
   input.num-product {
