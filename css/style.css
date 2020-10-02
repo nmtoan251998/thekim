@@ -1652,6 +1652,7 @@ padding: 2.5em 0;
 }
 
 .all-product-item-pic img {
+    object-fit: contain;
     width: 100%;
     -webkit-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
@@ -1991,8 +1992,9 @@ left: 12px;
 }
 
 .author-img {
-    min-width: 90%;
-    /* max-width: 100%; */
+    width: 100%;
+    object-fit: contain;
+    height: auto;
 }
 
 .contact-header {
@@ -2120,4 +2122,14 @@ a.t-black:hover{
 
 .vjs-playback-rate-value {
     visibility: hidden !important;
+}
+.pt150p{
+    padding-top: 150%;
+}
+.author-img{
+    background-image: url("../img/blahblah.jpg");
+}
+.branding-authorized-logo-viettelpost{
+    width: 140px;
+    height: 88px;
 }
