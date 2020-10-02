@@ -304,7 +304,7 @@ color: #fff;
 font-size: 18px;
 padding: 8px 33px;
 margin-top: -21px;
-background:  #91BDDE;
+background:  #000000;
 }
 
 .owl-item.active .advertisement-slider-item h2,
@@ -428,7 +428,7 @@ line-height: 1.4;
 font-weight: normal;
 }
 .intro-text h4 {
-    color: #91BDDE;
+    color: #99CEF8;
 }
 
 .intro-text p {
@@ -1412,7 +1412,7 @@ bottom: -10px;
 right: 0;
 width: 40px;
 height: 40px;
-background: #000000;
+background: #91BDDE;
 border-radius: 50%; }
 .testimony-wrap .user-img .quote i {
 color: #fff; }
@@ -1514,7 +1514,7 @@ height: 100px;
 border-radius: 50%;
 position: relative;
 margin: 0 auto; }
-.testimony-wrap .user-img .quote {
+/* .testimony-wrap .user-img .quote {
 position: absolute;
 bottom: -10px;
 right: 0;
@@ -1523,7 +1523,7 @@ height: 40px;
 background: #000000;
 border-radius: 50%; }
 .testimony-wrap .user-img .quote i {
-color: #fff; }
+color: #fff; } */
 .testimony-wrap .name {
 font-weight: 400;
 font-size: 16px;
