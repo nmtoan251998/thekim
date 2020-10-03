@@ -1902,6 +1902,7 @@ left: 12px;
 
 .service-text {
     color: #d8d8d8;
+    margin: auto 0 !important;
 }
 
 
