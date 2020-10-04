@@ -1166,8 +1166,6 @@ a.t-black:hover{
     color: #3b3f42;
 }
 #instructions {
-    max-width: 970px;
-
     text-align: left; margin: 30px auto; }
 
 /* Show the controls (hidden at the start by default) */
@@ -1219,4 +1217,51 @@ a.t-black:hover{
 .branding-authorized-logo-viettelpost{
     width: 140px;
     height: 88px;
+}
+/*Custom video player*/
+
+.vjs-poster{
+    background-size: cover!important;
+}
+.my_video_1-dimensions.vjs-fluid{
+    padding-top: 56.3%;
+}
+.vjs-control-bar{
+    width: 90% !important;
+    left: 50%!important;
+    transform: translate(-50%, 0);
+}
+.video-js .vjs-control-bar{
+    background-color: transparent!important;
+    bottom: 30px!important;
+}
+.video-js .vjs-load-progress{
+    background: #f7f7f7!important;
+}
+.video-js .vjs-big-play-button{
+    background-color: transparent!important;
+}
+.video-js .vjs-progress-holder{
+    height: 0.2em!important;
+}
+.video-js .vjs-play-progress:before{
+    content: none!important;
+}
+.vjs-fullscreen-control.vjs-control.vjs-button{
+    display: none!important;
+}
+.vjs-remaining-time.vjs-time-control.vjs-control{
+    display: none!important;
+}
+.vjs-volume-menu-button.vjs-vol-3{
+    display: none!important;
+}
+.vjs-play-control.vjs-playing{
+    display: none!important;
+}
+.vjs-playback-rate.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button{
+    display: none!important;
+}
+.vjs-play-control.vjs-paused{
+    display: none!important;
 }
