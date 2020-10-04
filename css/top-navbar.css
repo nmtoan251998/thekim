@@ -1,7 +1,11 @@
 .site-navbar {
     background-color: #000000;
-}
 
+}
+.nav-link{
+
+    font-family: "Arial", sans-serif;
+}
 .site-navbar.navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-weight: 400;
