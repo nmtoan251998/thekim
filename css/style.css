@@ -3,7 +3,7 @@
 }
 
 .section-title span {
-    color:  #91BDDE;
+    color:  #f62a66;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -133,13 +133,13 @@ border-bottom: 5px solid transparent;
 
 .owl-carousel .owl-nav button.owl-prev:hover,
 .owl-carousel .owl-nav button.owl-next:hover {
-border-color: #91BDDE;
-color: #91BDDE;
+border-color: #f62a66;
+color: #f62a66;
 }
 
 .owl-carousel .owl-nav button.owl-prev:hover:after,
 .owl-carousel .owl-nav button.owl-next:hover:after {
-    border-left: 9px solid #91BDDE;
+    border-left: 9px solid #f62a66;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -154,7 +154,7 @@ border-right: 9px solid #fff;
 
 .owl-carousel .owl-nav button.owl-prev:hover:after {
 border-left: 0;
-border-right: 9px solid #91BDDE;
+border-right: 9px solid #f62a66;
 }
 
 .site-logo {
@@ -173,7 +173,7 @@ border-right: 9px solid #91BDDE;
 }
 
 .site-logo h2 span {
-color:  #91BDDE;
+color:  #f62a66;
 }
 
 .site-logo p {
@@ -194,7 +194,7 @@ transition: all 0.3s;
 }
 
 .social-links a:hover {
-color:  #91BDDE;
+color:  #f62a66;
 }
 
 /*------------------
@@ -298,7 +298,7 @@ margin-right: 7px;
 }
 
 .advertisement-slider .owl-dots .owl-dot.active {
-background: #91BDDE;
+background: #f62a66;
 }
 
 .advertisement-slider .owl-dots .owl-dot:last-child {
@@ -382,7 +382,7 @@ text-decoration: underline;
 }
 
 .contact a:hover {
-color:  #91BDDE;
+color:  #f62a66;
 }
 
 
@@ -492,7 +492,7 @@ bottom: -10px;
 right: 0;
 width: 40px;
 height: 40px;
-background: #91BDDE;
+background: #f62a66;
 border-radius: 50%; }
 .testimony-wrap .user-img .quote i {
 color: #fff; }
@@ -508,7 +508,7 @@ color: gray; }
 .media .ftco-icon {
 width: 100px; }
 .media .ftco-icon span {
-color: #91BDDE; }
+color: #f62a66; }
 
 .ftco-media {
 background: #fff;
@@ -532,7 +532,7 @@ box-shadow: 0 10px 70px -15px rgba(0, 0, 0, 0.3); }
 .ftco-media .icon {
 font-size: 50px;
 display: block;
-color: #91BDDE; }
+color: #f62a66; }
 .ftco-media.text-center .ftco-icon {
 margin: 0 auto; }
 
@@ -704,7 +704,7 @@ color: #b3b3b3; }
 
 .title-section h2 {
 padding-left: 30px;
-border-left: 4px solid #91BDDE;
+border-left: 4px solid #f62a66;
 display: inline-block;
 color: #3b3f42; }
 
@@ -722,7 +722,7 @@ left: 50%;
 transform: translateX(-50%);
 width: 70px;
 height: 4px;
-background: #91BDDE;
+background: #f62a66;
 content: ""; }
 
 .site-section {
@@ -928,7 +928,7 @@ left: 12px;
 }
 
 .all-product-item-name:hover {
-    color: #91BDDE;
+    color: #f62a66;
 }
 
 .email-sup-text {
@@ -1155,9 +1155,9 @@ left: 12px;
     color: #3b3f42;
 }
 a.t-black:hover{
-    color:  #91BDDE;
+    color:  #f62a66;
 }
-/* #91BDDE */
+/* #f62a66 */
 
 .max-w770{
     max-width: 770px;
@@ -1177,7 +1177,7 @@ a.t-black:hover{
 }
 
 #instructions a, #instructions a:hover, #instructions:visited{
-    color: #91BDDE
+    color: #f62a66
 }
 .vjs-big-play-button {
     /* transition: 500ms; */
