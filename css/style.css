@@ -1116,8 +1116,8 @@ left: 12px;
     top: 0;
     width: 100%;
     height: 100%;
-    background-size: 100% auto;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     z-index: -1;
 }
