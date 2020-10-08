@@ -238,6 +238,10 @@
 		</div>
 	</section>
 
+	<!-- Footer -->
+	<footer class="footer bg-white">
+	</footer>
+
 	<script src="js/product-detail.js"></script>
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="vendor/bootstrap/js/popper.js"></script>
@@ -276,27 +280,6 @@
 		    });
 		});
 	</script>
-
-	<script>
-		// sticky nav bar
-		window.addEventListener('scroll', () => {
-			const yPos = window.scrollY;
-
-			const navbar = document.querySelector('#top-navbar');
-
-			const navbarChangePos = 350;
-			if (yPos >= navbarChangePos) {
-				navbar.classList.add('top-navbar-scroll');
-			}
-
-			if (yPos < navbarChangePos) {
-				if (navbar.classList.contains('top-navbar-scroll')) {
-					navbar.classList.remove('top-navbar-scroll');
-				}
-			}
-		});
-	</script>
-
 	<script src="js/main_5.js"></script>
 
 </body>
