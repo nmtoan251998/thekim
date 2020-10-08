@@ -4,7 +4,7 @@ console.log('Developer: https://github.com/nmtoan251998')
 'use strict';
 
 function appendNewArrivalData() {
-	
+
 	const selector = document.querySelector('#new-arrivals-data-container');
 
 	let content = '';
@@ -42,7 +42,7 @@ function appendBestSellerData() {
 	const bestSellerProduct01 = document.querySelector('#best-seller-product-01');
 	const bestSellerProduct02 = document.querySelector('#best-seller-product-02');
 
-	
+
 	bestSellerProduct01.innerHTML = `
 		<div class="row mx-4 my-4 product-item-2 align-items-start">
 			<div class="col-md-6 mb-md-0 featured-product-container">
@@ -98,6 +98,16 @@ $(window).on('load', function() {
 	--------------------*/
 	$(".loader").fadeOut();
 	$("#spinner").delay(400).fadeOut("slow");
+
+
+	// if($('vjs-big-play-button').length){
+	// document.querySelector('#instructions').addEventListener('click',function (){
+	// 	console.log("Click");
+	// 	// $('#instructions').addClass('active');
+	// })
+	$('.vjs-big-play-button').on('click', function (){
+		$('#instructions').addClass('active');
+	})
 
 });
 

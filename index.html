@@ -338,13 +338,7 @@
 
 <!--End partner-->
 <section class="our-story py-lg-5 py-md-4 py-3">
-	<div class="container text-center">
-		<h2 class="all-product-header">
-			Câu chuyện chiếc áo Blouse
-		</h2>
-		<p class="max-w770 mb-5 ml-auto mr-auto">
-			Founded by Lara Francisco, PA-C, Medelita provides the medical community with uniforms and services that only someone working in medicine could produce. Constantly innovating, we remain devoted to upholding the highest standard of quality, service, and sustainability in the uniform industry.
-		</p>
+	<div class=" text-center">
 		<div id="instructions">
 
 			<video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="400px"
@@ -352,13 +346,23 @@
 				   data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
 				<source src="video/unboxing.mp4" type='video/mp4' />
 			</video>
-		</div>
+			<div class="content">
 
-		<a
-			href="history/index.html"
-			class="all-product-btn mt-3">
-			Khám phá thêm
-		</a>
+				<h2 class="all-product-header">
+					Câu chuyện chiếc áo Blouse
+				</h2>
+				<p class="max-w770 mb-5 ml-auto mr-auto">
+					Founded by Lara Francisco, PA-C, Medelita provides the medical community with uniforms and services that only someone working in medicine could produce. Constantly innovating, we remain devoted to upholding the highest standard of quality, service, and sustainability in the uniform industry.
+				</p>
+
+
+				<a
+						href="history/index.html"
+						class="all-product-btn mt-3">
+					Khám phá thêm
+				</a>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -367,10 +371,10 @@
 	<div class="container text-center">
 		<h2 class="sub-title mb-5 text-uppercase">Đối tác của chúng tôi</h2>
 		<div class="row justify-content-center">
-			<div class="col-lg-2 mb-lg-0 mb-3 ">
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-3 ">
 				<img loading=lazy  class="max-w100" src="img/partners/eye_care.min.jpg" alt="">
 			</div>
-			<div class="col-lg-2 mb-lg-0 mb-3">
+			<div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-lg-0 mb-3">
 				<img loading=lazy  class="max-w100" src="img/partners/dr_tony.min.png" alt="">
 			</div>
 		</div>
@@ -435,7 +439,7 @@
 
 <script>
 	const scrollTopBtn = document.querySelector('.scroll-to-top');
-
+	// }
 	// sticky nav bar
 	window.addEventListener('scroll', () => {
 		const yPos = window.scrollY;
@@ -451,6 +455,8 @@
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: 0 }, '300');
 	});
+
+
 
 
 </script>
