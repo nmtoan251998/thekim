@@ -104,7 +104,7 @@ function appendBestSellerData() {
 
 			<div class="col-md-5 ml-auto product-title-wrap">
 				<span class="number">01.</span>
-				<h3 class="text-black mb-4"></h3>
+				<h3 class="text-black mb-4">${data01.name}</h3>
 				<p class="mb-4">${data01.desc}</p>
 
 				<div class="mb-4">

@@ -114,50 +114,21 @@ div.hb-colour-options input[type="radio"] + label:before {
 	cursor: pointer;
 }
 
-div.hb-colour-options input[type="radio"]#green + label:before {
-	background:#359457;
-}
-div.hb-colour-options input[type="radio"]#yellow + label:before {
-	background:#ffcd2f;
-}
-div.hb-colour-options input[type="radio"]#orange + label:before {
-	background:#f27930;
-}
-div.hb-colour-options input[type="radio"]#red + label:before {
-	background:#c1284a;
-}
-div.hb-colour-options input[type="radio"]#light-purple + label:before {
-	background:#8562a7;
-}
-div.hb-colour-options input[type="radio"]#light-blue + label:before {
-	background:#279fd7;
-}
 div.hb-colour-options input[type="radio"]#black + label:before {
 	background:#000000;
-}
-div.hb-colour-options input[type="radio"]#purple + label:before {
-	background:#65318f;
 }
 div.hb-colour-options input[type="radio"]#white + label:before {
 	background:#ffffff;
 }
 div.hb-colour-options input[type="radio"]#blue + label:before {
-	background:#006d94;
+	background: #7FB7CD;
 }
-
-/* div.hb-colour-options input[type="radio"]:checked + label:after {
-	font-family: 'FontAwesome';
-	display:block;
-	position:absolute;
-	top:3px;
-	left:3px;
-	content: '\f00c';
-	font-size: 20px;
-	color: #fff;
-	z-index: 99;
-	text-indent: 0;
-	margin: 0;
-} */
+div.hb-colour-options input[type="radio"]#dark-blue + label:before {
+	background: #05204e;
+}
+div.hb-colour-options input[type="radio"]#teal + label:before {
+	background: #226D73;
+}
 div.hb-colour-options input[type="radio"]:checked + label:after {
 	font-family: 'FontAwesome';
 	display: block;
@@ -173,13 +144,8 @@ div.hb-colour-options input[type="radio"]:checked + label:after {
 	margin: 0;
 }
 
-div.hb-colour-options input[type="radio"]:checked {
-	transform: scale(1.1);
-}
-
-/* div.hb-colour-options input[type="radio"]#white:checked + label:after,
-div.hb-colour-options input[type="radio"]#yellow:checked + label:after {
+div.hb-colour-options input[type="radio"]#white:checked + label:after {
 	color: #000;
-} */
+}
   
 /* End colored-buttons */
