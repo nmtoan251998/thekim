@@ -72,3 +72,114 @@ button {
 .txt-center {text-align: center;}
 .wrap-pic-w {display: block;}
 .wrap-pic-w img {width: 100%;}
+
+
+
+
+/* Start colored-buttons */
+.hb-colour-options{
+	width: 100%;
+}
+
+div.hb-colour-options input[type="radio"] {
+	position:absolute;
+	opacity: 0;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+	-o-opacity: 0;
+}
+
+div.hb-colour-options input[type="radio"] + label {
+	position:relative;
+	float:left;
+	width: 25px;
+	height: 25px;
+	margin: 0 8px 8px 0;  
+	text-indent:-9999px;
+	cursor: pointer;
+}
+
+div.hb-colour-options input[type="radio"] + label:before {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height: 25px;
+	width: 25px;
+	background: #e4e4e4;
+	border: 2px solid #fff;
+	transition: all 0.5s ease;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+div.hb-colour-options input[type="radio"]#green + label:before {
+	background:#359457;
+}
+div.hb-colour-options input[type="radio"]#yellow + label:before {
+	background:#ffcd2f;
+}
+div.hb-colour-options input[type="radio"]#orange + label:before {
+	background:#f27930;
+}
+div.hb-colour-options input[type="radio"]#red + label:before {
+	background:#c1284a;
+}
+div.hb-colour-options input[type="radio"]#light-purple + label:before {
+	background:#8562a7;
+}
+div.hb-colour-options input[type="radio"]#light-blue + label:before {
+	background:#279fd7;
+}
+div.hb-colour-options input[type="radio"]#black + label:before {
+	background:#000000;
+}
+div.hb-colour-options input[type="radio"]#purple + label:before {
+	background:#65318f;
+}
+div.hb-colour-options input[type="radio"]#white + label:before {
+	background:#ffffff;
+}
+div.hb-colour-options input[type="radio"]#blue + label:before {
+	background:#006d94;
+}
+
+/* div.hb-colour-options input[type="radio"]:checked + label:after {
+	font-family: 'FontAwesome';
+	display:block;
+	position:absolute;
+	top:3px;
+	left:3px;
+	content: '\f00c';
+	font-size: 20px;
+	color: #fff;
+	z-index: 99;
+	text-indent: 0;
+	margin: 0;
+} */
+div.hb-colour-options input[type="radio"]:checked + label:after {
+	font-family: 'FontAwesome';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	content: '\f00c';
+	font-size: 20px;
+	color: #fff;
+	z-index: 99;
+	text-indent: 0;
+	margin: 0;
+}
+
+div.hb-colour-options input[type="radio"]:checked {
+	transform: scale(1.1);
+}
+
+/* div.hb-colour-options input[type="radio"]#white:checked + label:after,
+div.hb-colour-options input[type="radio"]#yellow:checked + label:after {
+	color: #000;
+} */
+  
+/* End colored-buttons */

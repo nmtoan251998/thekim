@@ -40,11 +40,6 @@ function appendNewArrivalData() {
 	]
 	const selector = document.querySelector('#new-arrivals-data-container');
 
-	const allProductButton = `
-		<div class="d-flex ml-auto mr-auto justify-content-center">
-			<a href="all-products.html" class="all-product-btn">Tất cả sản phẩm</a>
-		</div>`;
-
 	let content = '';
 	data.forEach(item => {
 		content += `
@@ -71,8 +66,6 @@ function appendNewArrivalData() {
 			</div>
 		`;
 	});
-
-	content += allProductButton;
 
 	selector.innerHTML = content;
 }
