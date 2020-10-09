@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ee231dc3-103d-44e9-ace6-5af960086e1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/history/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/history/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/scroll-to-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/scroll-to-top.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/history/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,9 @@
       <workItem from="1601821307281" duration="3782000" />
       <workItem from="1602172887638" duration="2400000" />
       <workItem from="1602209554958" duration="1988000" />
-      <workItem from="1602213042921" duration="940000" />
+      <workItem from="1602213042921" duration="1107000" />
+      <workItem from="1602249525145" duration="347000" />
+      <workItem from="1602263379136" duration="936000" />
     </task>
     <servers />
   </component>
@@ -83,6 +85,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="543" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602263833257">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="543" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.970@0.23.1680.970" timestamp="1602263833257" />
     <state x="578" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601828921155">
       <screen x="0" y="23" width="1680" height="970" />
     </state>

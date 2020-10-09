@@ -35,7 +35,9 @@
 
 <body>
 <!-- Scroll to top -->
-<a class="scroll-to-top"></a>
+<a class="scroll-to-top">
+	<img width="10px" height="auto" src="img/icons/up-arrow-angle.svg" alt="">
+</a>
 
 <!-- Loader -->
 <!--<div id="spinner">-->
@@ -260,10 +262,10 @@
 	<div class=" text-center">
 		<div id="instructions">
 
-			<video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="400px"
+			<video src="video/unboxing.mp4" id="my_video_1" type="video/mp4" class="video-js vjs-default-skin" width="640px" height="400px"
 				   controls preload="none" poster='img/background-img.jpg'
 				   data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
-				<source src="video/unboxing.mp4" type='video/mp4' />
+				<source  src="video/unboxing.mp4" type='video/mp4' />
 			</video>
 			<div class="content">
 
@@ -398,7 +400,7 @@
 		const divSelector = document.createElement('div');
 		divSelector.style.backgroundImage = 'url(img/background-img.jpg)';
 		divSelector.classList.add('bg-fixed');
-		
+
 		document.querySelector('body').appendChild(divSelector);
 	})
 </script>

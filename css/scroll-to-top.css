@@ -1,5 +1,5 @@
 .scroll-to-top {
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: #000000;
     width: 2.2rem;
     height: 2.2rem;
@@ -13,21 +13,24 @@
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.scroll-to-top::after {
-    content: "\02C4";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 20px;
-    /* line-height: 1.2em; */
-    color: #fff;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/*.scroll-to-top::after {*/
+/*    content: "\02C4";*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*    font-size: 20px;*/
+/*     line-height: 1.9em;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 0);*/
+/*}*/
 
 @media screen and (max-width: 991px){
     .scroll-to-top::after {
