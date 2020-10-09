@@ -193,6 +193,10 @@
     .all-product-btn{
         padding: 12px 15px;
     }
+
+    .get-notification .form-control {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 479px) {
@@ -268,6 +272,9 @@
 }
 
 @media (max-width: 580px) {
+    .get-notification {
+        padding-bottom: 0 !important;
+    }
     .advertisement-slider-item h2 {
         font-size: 3rem !important;
     }
@@ -318,9 +325,16 @@
     }
     #instructions .content{
         padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .explore-blouse-btn {
+        padding: 14px 26px;
+        color: #ffffff !important;
+        background-color: #000000 !important;
     }
     #instructions a{
-        margin-top: 0!important;
+        margin-top: 1em !important;
     }
     .site-section .featured-product-container{
         padding: 0;
@@ -338,7 +352,7 @@
         font-size: 12px;
     }
     .get-notification .btn{
-        font-size: 12px;
+        font-size: 16px;
     }
     .get-notification .form-control:focus{
         background-color: transparent!important;

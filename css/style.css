@@ -1119,7 +1119,6 @@ font-size: 1.6rem;
 border-width: 1px!important;
 height: 55px;
 padding-left: 15px;
-
 }
 .get-notification h2{
 font-weight: normal!important;
@@ -1273,10 +1272,12 @@ transform: translate(-50%, -50%) scale(1.15);
 
 .partners {
 background-color: #ffffff;
+margin-top: -1em;
+padding-bottom: 1.6em;
 }
 
 .our-story {
-background-color: #f6f6f6;
+background-color: #ffffff;
 }
 
 .vjs-playback-rate-value {
@@ -1484,3 +1485,10 @@ line-height: 1.5; }
 @media (max-width: 991.98px) {
 .site-blocks-cover .display-1 {
 font-size: 3rem; } }
+
+@media (max-width: 567px) {
+    .video-header {
+        display: none;
+    }
+    
+}
