@@ -378,7 +378,7 @@
 <footer class="footer bg-white">
 
 </footer>
-<div class="bg-fixed" style="background-image: url(img/background-img.jpg);"></div>
+<!-- <div class="bg-fixed" style="background-image: url(img/background-img.jpg);"></div> -->
 
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" href="css/scroll-to-top.css"/>
@@ -455,10 +455,17 @@
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: 0 }, '300');
 	});
+</script>
 
-
-
-
+<!-- Append global bg image -->
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const divSelector = document.createElement('div');
+		divSelector.style.backgroundImage = 'url(img/background-img.jpg)';
+		divSelector.classList.add('bg-fixed');
+		
+		document.querySelector('body').appendChild(divSelector);
+	})
 </script>
 </body>
 </html>
