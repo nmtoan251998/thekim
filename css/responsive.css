@@ -302,7 +302,7 @@
     }
     .spad{
         padding-top: 25px;
-        padding-bottom: 25px;
+        padding-bottom: 0px;
     }
     .intro-text h2, .partners h2{
         font-size: 25px;

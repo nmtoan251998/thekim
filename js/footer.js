@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="col-lg-3 mb-lg-0 mb-md-5 mb-1 col-md-4 col-6">
                         <a class="mb-3 d-lg-inline-block d-flex justify-content-start" href="https://www.facebook.com/thekimblousecantho" target="_blank">
                             <img loading=lazy
-                                    src="img/footer/qr-code-scanme.png"
+                                    src="img/qr-code.png"
                                     alt="image"
                                     style="height: 192px; width: 150px; object-fit: contain"
                             >

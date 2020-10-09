@@ -5,7 +5,7 @@ const bestSellerData01 = {
     category: '',
     link: 'product-detail.html?product=nu-blouse-01',
     desc: 'The KIM premium stretch slim fit labcoats are tailored for comfort and style, with an ergonomic fit that is slimming and flattering. Designed for optimal range of motion, each sophisticated lab coat offers a precise fit that never restricts movement or luxurious.',
-    src: 'img/products/blouse/nu-blouse-01_1.jpg',
+    src: 'img/homepage/nu-blouse-01_1.jpg',
 }
 
 const bestSellerData02 = {
@@ -14,7 +14,7 @@ const bestSellerData02 = {
     category: '',
     link: 'product-detail.html?product=violet-scrub-01',
     desc: 'With a tailored fit, unparalleled fabric technology, and an emphasis on quality, The KIM scrub will help you look and feel your best in hospital.',
-    src: 'img/products/scrub/violet-scrub-01_1.jpg',
+    src: 'img/homepage/violet-scrub-01_1.jpg',
 }
 
 const newArrivalsData = [
@@ -24,7 +24,7 @@ const newArrivalsData = [
         category: 'Scrub Nu',
         desc: '',
         link: 'product-detail.html?product=violet-scrub-01',
-        src: 'img/products/scrub/violet-scrub-01_1.jpg'
+        src: 'img/homepage/violet-scrub-01_1.jpg'
     },
     {
         name: 'General Scrub',
@@ -32,7 +32,7 @@ const newArrivalsData = [
         category: 'Scrub Nu',
         desc: '',
         link: 'product-detail.html?product=nam-scrub-02',
-        src: 'img/products/scrub/nam-scrub-02_4.jpg'
+        src: 'img/homepage/nam-scrub-02_4.jpg'
     },
     {
         name: 'General Blouse',
@@ -40,7 +40,7 @@ const newArrivalsData = [
         category: 'Blouse Nu',
         desc: '',
         link: 'product-detail.html?product=nam-blouse-01',
-        src: 'img/products/blouse/nam-blouse-01_1.jpg'
+        src: 'img/homepage/nam-blouse-01_1.jpg'
     },
     {
         name: 'Violet Blouse',
@@ -48,7 +48,7 @@ const newArrivalsData = [
         category: 'Blouse Nu',
         desc: '',
         link: 'product-detail.html?product=nu-blouse-01',
-        src: 'img/products/blouse/nu-blouse-01_1.jpg'
+        src: 'img/homepage/nu-blouse-01_1.jpg'
     },
 ];
 // End Main page Data
