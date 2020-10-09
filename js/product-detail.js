@@ -1,4 +1,9 @@
 const blousenam01 = {
+    infor: {
+        material: '60% cotton, 40% poliester - Cotton Silk USA',
+        height: '110 cm',
+        width: '',
+    },
     name: 'Men Labcoat',
     price: '850.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -28,6 +33,11 @@ const blousenam01 = {
 }
 
 const blousenu01 = {
+    infor: {
+        material: '60% cotton, 40% poliester - Cotton Silk USA',
+        height: '110 cm',
+        width: '',
+    },
     name: 'Women Labcoat',
     price: '850.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -56,6 +66,11 @@ const blousenu01 = {
 }
 
 const namscrub01 = {
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: 'Theo size',
+        width: 'Theo size',
+    },
     name: 'Men Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -94,6 +109,11 @@ const namscrub01 = {
 }
 
 const namscrub02 = {
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: 'Theo size',
+        width: 'Theo size',
+    },
     name: 'Men Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -135,6 +155,11 @@ const namscrub02 = {
 }
 
 const violetscrub01 = {
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: 'Theo size',
+        width: 'Theo size',
+    },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -175,6 +200,11 @@ const violetscrub01 = {
 }
 
 const violetscrub02 = {
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: 'Theo size',
+        width: 'Theo size',
+    },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -215,6 +245,11 @@ const violetscrub02 = {
 }
 
 const violetscrub03 = {
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: 'Theo size',
+        width: 'Theo size',
+    },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -255,6 +290,11 @@ const violetscrub03 = {
 }
 
 const violetscrub04 = {
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: 'Theo size',
+        width: 'Theo size',
+    },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
@@ -348,6 +388,81 @@ function innerProduct(data) {
         sizeContent += `<option>Size ${size}</option>`;
     });
     productSize.innerHTML = sizeContent;
+
+    const productInforTab = document.querySelector('#information');
+    const productDescTab = document.querySelector('#description');
+
+    let productDescTabContent = `
+        <div class="how-pos2 p-lr-15-md">
+            <p class="stext-102 cl6">
+                ${data.desc}
+            </p>
+        </div>`;
+
+    productDescTab.innerHTML = productDescTabContent;
+    console.log(data);
+
+    const sizeInfor = data.sizes.map(size => ` ${size}`);
+    const colorInfor = data.colors.map(color => ` ${color.label}`);
+    let productInforTabContent = ``;
+    productInforTabContent += `
+        <div class="row">
+            <div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
+                <ul class="p-lr-28 p-lr-15-sm">
+                    <li class="flex-w flex-t p-b-7">
+                        <span class="stext-102 cl3 size-205">
+                            Ngang
+                        </span>
+
+                        <span class="stext-102 cl6 size-206">
+                            ${data.infor.width}
+                        </span>
+                    </li>
+
+                    <li class="flex-w flex-t p-b-7">
+                        <span class="stext-102 cl3 size-205">
+                            Dài
+                        </span>
+
+                        <span class="stext-102 cl6 size-206">
+                            ${data.infor.height}
+                        </span>
+                    </li>
+
+                    <li class="flex-w flex-t p-b-7">
+                        <span class="stext-102 cl3 size-205">
+                            Chất liệu
+                        </span>
+
+                        <span class="stext-102 cl6 size-206">
+                            ${data.infor.material}
+                        </span>
+                    </li>
+
+                    <li class="flex-w flex-t p-b-7">
+                        <span class="stext-102 cl3 size-205">
+                            Màu sắc
+                        </span>
+
+                        <span class="stext-102 cl6 size-206">
+                            ${colorInfor}
+                        </span>
+                    </li>
+
+                    <li class="flex-w flex-t p-b-7">
+                        <span class="stext-102 cl3 size-205">
+                            Size
+                        </span>
+
+                        <span class="stext-102 cl6 size-206">
+                            ${sizeInfor}
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    `;
+    productInforTab.innerHTML = productInforTabContent;
 }
 
 function renderMenu() {
