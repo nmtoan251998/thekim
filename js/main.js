@@ -8,7 +8,7 @@ function appendNewArrivalData() {
 	const selector = document.querySelector('#new-arrivals-data-container');
 
 	let content = '';
-	console.log(newArrivalsData);
+	// console.log(newArrivalsData);
 	newArrivalsData.forEach(item => {
 		content += `
 			<div class="col-sm-6 col-md-4 col-lg-3 all-product-item-container">

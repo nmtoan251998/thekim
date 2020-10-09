@@ -1185,41 +1185,47 @@ display: flex;
 #instructions a, #instructions a:hover, #instructions:visited{
 color: #f62a66
 }
-#instructions .content{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 30px;
-    z-index: 1;
-    transition: all .3s ease-in-out;
+@media screen and (min-width: 567px){
+
+    #instructions .content{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 30px;
+        z-index: 1;
+        transition: all .3s ease-in-out;
+    }
+
+    #instructions:before{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        background: rgba(0,0,0, .5);
+        background: linear-gradient(0deg, rgba(0,0,0,0.5648634453781513) 27%, rgba(64,64,64,0.09427521008403361) 75%, rgba(64,64,64,0.0578606442577031) 88%);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: all .3s ease-in-out;
+    }
+
+    #instructions.active:before{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #instructions.active .content{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #instructions .all-product-header{
+        color: #fff;
+    }
+    #instructions p{
+        color: rgba(255, 255, 255, .6);
+    }
 }
 
-#instructions .all-product-header{
-    color: #fff;
-}
-#instructions p{
-    color: rgba(255, 255, 255, .6);
-}
-#instructions:before{
-    content: "";
-    position: absolute;
-    z-index: 1;
-    background: rgba(0,0,0, .5);
-    background: linear-gradient(0deg, rgba(0,0,0,0.5648634453781513) 27%, rgba(64,64,64,0.09427521008403361) 75%, rgba(64,64,64,0.0578606442577031) 88%);
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    transition: all .3s ease-in-out;
-}
-#instructions.active:before{
-    opacity: 0;
-    visibility: hidden;
-}
-#instructions.active .content{
-    opacity: 0;
-    visibility: hidden;
-}
 .vjs-big-play-button {
     /* transition: 500ms; */
     width: 50px !important;

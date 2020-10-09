@@ -283,6 +283,10 @@
     .get-notification h2{
         font-size: 25px!important;
     }
+    #best-seller-product-01, #best-seller-product-02{
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
     #best-seller-product-01 .product-item-2, #best-seller-product-02 .product-item-2{
         margin: 0 0 0 0!important;
     }
@@ -309,7 +313,39 @@
     .map img{
         height: auto!important;
     }
+    #instructions{
+        margin-bottom: 0;
+    }
+    #instructions .content{
+        padding: 5px;
+    }
+    #instructions a{
+        margin-top: 0!important;
+    }
+    .site-section .featured-product-container{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .site-section .product-title-wrap{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .get-notification .form-control{
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .get-notification .form-control::placeholder{
+        font-size: 12px;
+    }
+    .get-notification .btn{
+        font-size: 12px;
+    }
+    .get-notification .form-control:focus{
+        background-color: transparent!important;
+        color: #fff;
+    }
 }
+
 
 @media (max-width: 420px) {
     .advertisement-slider-item h2 {
@@ -330,6 +366,30 @@
 
     #instructions .content h2{
         font-size: 18px;
+    }
+    .intro-text p{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .thekim-brand{
+        font-size: 22px!important;
+    }
+    .site-logo p{
+        font-size: 8px;
+    }
+    .navbar-dark .navbar-toggler{
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-collapse{
+        padding-bottom: 15px;
+    }
+    .site-navbar.navbar-dark .navbar-nav .nav-link{
+        padding-left: 0!important;
+    }
+    .site-navbar.navbar-dark .navbar-nav .nav-link:before{
+        left: 0!important;
     }
 }
 
