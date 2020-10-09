@@ -68,6 +68,29 @@ background-color: #000;
 border-color: #000;
 }
 
+.explore-blouse-btn {
+    display: inline-block;
+
+    min-width: 186px;
+    padding: 18px 30px;
+    color: #000000 !important;
+    background-color: #ffffff;
+    
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    
+    cursor: pointer;
+    
+    transition: 250ms;
+    position: relative;
+}
+.explore-blouse-btn:hover {
+    color: #ffffff !important;
+    background-color: #000000;
+}
+
 
 .all-product-btn {
 display: inline-block;
