@@ -3,6 +3,60 @@ console.log('Developer: https://github.com/nmtoan251998')
 
 'use strict';
 
+function appendClientFeedback() {
+	const clientSaidDataContainer = document.querySelector('#client-said-data-container');
+	let content = '';
+	
+	const data = [
+		{
+			ava: 'img/customers/customer-01.jpg',
+			name: 'Thạc sĩ, Bác sĩ Trần Hoàng Duy',
+			title: 'Giảng viên trường Đại học Y Dược Cần Thơ',
+			feedback: 'Áo Blouse rất vừa, đẹp và sang trọng. Chất vải mặc vào rất thoải mái.',
+			link: '',
+		},
+		{
+			ava: 'img/customers/customer-02.jpg',
+			name: 'Ho Le Bao An',
+			title: 'CEO & Founder <a href="https://www.facebook.com/drholebaoan">Dr.Tony Cosmetic Dentist & Invisalign Provider</a>',
+			feedback: 'Chất liệu vải đẹp, mặc rất vừa vặn, mát và sang trọng.'
+		},
+		{
+			ava: 'img/customers/customer-03.jpg',
+			name: 'Bao Ngoc Pham Tran',
+			title: 'Dr Opthalmologist, CEO & Co-Founder <a href="https://www.facebook.com/matkinheyecare">Mat Kinh EYE CARE</a>',
+			feedback: 'Áo Blouse nữ mặc vào rất form dáng. Chất liệu vải co dãn tốt, nhìn tổng thể rất sang trọng. Chiếc áo Blouse đem lại cho mình nhiều tự tin hơn khi tiếp xúc với các bệnh nhân.'
+		},
+		{
+			ava: 'img/customers/customer-04.jpg',
+			name: 'Nhà thuốc ưu tú, Bác sĩ CK 2 Nguyễn Trọng Phương',
+			title: 'Giám đốc bệnh viện Hải Châu, Đà Nẵng',
+			feedback: 'Cảm ơn The KIM cho tôi trải nghiệm 1 chiếc áo Blouse với chất liệu vải cao cấp, mặc vào rất sang trọng và thoải mái, đặc biệt thêu tên rất đẹp. Được đựng trong 1 chiếc hộp rất cao cấp và sang trọng. Đánh giá 5 sao cho sản phẩm.'
+		},
+	]
+
+	data.forEach(item => {
+		content += `
+			<div class="item ">
+				<div class="testimony-wrap text-center">
+					<div class="user-img mb-5" style="background-image: url(${item.ava})">
+				<span class="quote d-flex align-items-center justify-content-center">
+					<img width="16" height="16" src="./img/icons/left-quote.svg" alt="">
+				</span>
+					</div>
+					<div class="text">
+						<p>${item.feedback}</p>
+						<p class="name">${item.name}</p>
+						<span class="position">${item.title}</span>
+					</div>
+				</div>
+			</div>
+		`;
+	});
+
+	clientSaidDataContainer.innerHTML = content;
+}
+
 function appendNewArrivalData() {
 
 	const selector = document.querySelector('#new-arrivals-data-container');
@@ -167,4 +221,5 @@ $(window).on('load', function() {
 
 	appendNewArrivalData();
 	appendBestSellerData();
+	appendClientFeedback();
 })(jQuery);
