@@ -33,18 +33,18 @@
 /*}*/
 
 @media screen and (max-width: 991px){
-    .scroll-to-top::after {
-        content: "\02C4";
-        font-weight: normal;
-        font-style: normal;
-        font-size: 30px;
-        color: #fff;
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+    /*.scroll-to-top::after {*/
+    /*    content: "\02C4";*/
+    /*    font-weight: normal;*/
+    /*    font-style: normal;*/
+    /*    font-size: 30px;*/
+    /*    color: #fff;*/
+    /*    cursor: pointer;*/
+    /*    position: absolute;*/
+    /*    top: 50%;*/
+    /*    left: 50%;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*}*/
 }
 
 
