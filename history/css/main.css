@@ -20,13 +20,13 @@ h1, h2, h3, h4, h5 {
       .container .section .fp-tableCell {
         padding: 20px 20px 15px 20px; } }
   .container .section:nth-child(1) {
-    background: url("../../img/client-said-bg-img-01.jpg");
+    background: url("../img/bg_1.jpg");
     background-size: cover; }
   .container .section:nth-child(2) {
-    background: url("../../img/background-img.jpg");
+    background: url("../img/bg_2.jpg");
     background-size: cover; }
   .container .section:nth-child(3) {
-    background: url("../../img/slider/violet-scrub-02_3_ngang.jpg");
+    background: url("../img/bg_3.jpg");
     background-size: cover; }
   .container .section:nth-child(4) {
     background: url("../img/bg_4.jpg");

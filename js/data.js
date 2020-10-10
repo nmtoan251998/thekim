@@ -1,9 +1,9 @@
 // Start Main page Data
 const bestSellerData01 = {
-    name: 'General Women Labcoat',
+    name: 'General Men Labcoat',
     price: '850.000 VND',
     category: '',
-    link: 'product-detail.html?product=nu-blouse-01',
+    link: 'product-detail.html?product=nam-blouse-01',
     desc: 'The KIM premium stretch slim fit labcoats are tailored for comfort and style, with an ergonomic fit that is slimming and flattering. Designed for optimal range of motion, each sophisticated lab coat offers a precise fit that never restricts movement or luxurious.',
     src: 'img/homepage/best-seller-01.jpg',
 }
