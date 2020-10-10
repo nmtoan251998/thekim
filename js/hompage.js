@@ -143,7 +143,7 @@ function appendBestSellerData() {
 
 function appendBgImg() {
 	const divSelector = document.createElement('div');
-	divSelector.style.backgroundImage = 'url(img/background-img.jpg)';
+	divSelector.style.backgroundImage = 'url(img/client-said-bg-img-02.jpg)';
 	divSelector.classList.add('bg-fixed');
 
 	document.querySelector('body').appendChild(divSelector);

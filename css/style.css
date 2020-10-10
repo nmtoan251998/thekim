@@ -69,6 +69,7 @@ border-color: #000;
 
 .explore-blouse-btn {
     display: inline-block;
+    margin-bottom: 1em;
 
     min-width: 186px;
     padding: 18px 30px;
@@ -1210,6 +1211,7 @@ display: flex;
 #instructions a, #instructions a:hover, #instructions:visited{
 color: #f62a66
 }
+
 @media screen and (min-width: 567px){
 
     #instructions .content{
@@ -1277,7 +1279,9 @@ padding-bottom: 1.6em;
 }
 
 .our-story {
-background-color: #ffffff;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
 }
 
 .vjs-playback-rate-value {
