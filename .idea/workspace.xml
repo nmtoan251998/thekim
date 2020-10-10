@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee231dc3-103d-44e9-ace6-5af960086e1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scroll-to-top.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/scroll-to-top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/history/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev/deploy" />
+                    <option name="lastUsedInstant" value="1602347016" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1601911689" />
@@ -77,7 +78,9 @@
       <workItem from="1602209554958" duration="1988000" />
       <workItem from="1602213042921" duration="1107000" />
       <workItem from="1602249525145" duration="347000" />
-      <workItem from="1602263379136" duration="936000" />
+      <workItem from="1602263379136" duration="1081000" />
+      <workItem from="1602346869245" duration="156000" />
+      <workItem from="1602347073862" duration="915000" />
     </task>
     <servers />
   </component>
