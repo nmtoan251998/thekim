@@ -90,55 +90,44 @@
 <section class="advertisement">
 	<div class="advertisement-slider owl-carousel">
 		<div
-				class="advertisement-slider-item adv-bg-set"
-				data-setbg="img/slider/DEMO-03_1.jpg"
-				data-hash="slide-1">
+			class="advertisement-slider-item adv-bg-set"
+			data-setbg="img/slider/slider-01.jpg"
+			data-hash="slide-1">
 
 			<div class="container">
 				<h2>Knowledge</h2>
-				<a
-						href="all-products.html"
-						class="advertisement-item-btn">Xem thêm
-					<!-- <i class="fa fa-angle-double-right"></i> -->
-				</a>
+				<a href="all-products.html" class="advertisement-item-btn">Xem thêm</a>
 			</div>
-			<div class="next-hs adv-bg-set" data-setbg="img/slider/DEMO-03_1.jpg">
+			<div class="next-hs adv-bg-set" data-setbg="img/slider/slider-02.jpg">
 				<a href="#slide-2" class="advertisement-site-btn">Tiếp theo</a>
 			</div>
 		</div>
 
 		<div
-				class="advertisement-slider-item adv-bg-set"
-				data-setbg="img/slider/DEMO-03_2.jpg"
-				data-hash="slide-2">
+			class="advertisement-slider-item adv-bg-set"
+			data-setbg="img/slider/slider-02.jpg"
+			data-hash="slide-2">
 
 			<div class="container">
 				<h2>Interesting</h2>
-				<a
-						href="all-products.html"
-						class="advertisement-item-btn">Xem thêm
-					<!-- <i class="fa fa-angle-double-right"></i> -->
-				</a>
+				<a href="all-products.html" class="advertisement-item-btn">Xem thêm</a>
 			</div>
-			<div class="next-hs adv-bg-set" data-setbg="img/slider/DEMO-03_2.jpg">
+			<div class="next-hs adv-bg-set" data-setbg="img/slider/slider-03.jpg">
 				<a href="#slide-3" class="advertisement-site-btn">Tiếp theo</a>
 			</div>
 		</div>
 
 		<div
-				class="advertisement-slider-item adv-bg-set"
-				data-setbg="img/slider/DEMO-03_3.jpg"
-				data-hash="slide-3">
+			class="advertisement-slider-item adv-bg-set"
+			data-setbg="img/slider/slider-03.jpg"
+			data-hash="slide-3">
 
 			<div class="container">
 				<h2>Modern</h2>
-				<a
-						href="all-products.html"
-						class="advertisement-item-btn">Xem thêm
-					<!-- <i class="fa fa-angle-double-right"></i> -->
+				<a href="all-products.html" class="advertisement-item-btn">Xem thêm
 				</a>
 			</div>
-			<div class="next-hs adv-bg-set" data-setbg="img/slider/DEMO-03_3.jpg">
+			<div class="next-hs adv-bg-set" data-setbg="img/slider/slider-01.jpg">
 				<a href="#slide-1" class="advertisement-site-btn">Tiếp theo</a>
 			</div>
 		</div>
@@ -209,7 +198,7 @@
 </div>
 
 <!-- Clients Said -->
-<section class="pb-5 ftco-section testimony-section img" style="background-image: url(img/client-said-bg-img-02.jpg);">
+<section class="pb-5 ftco-section testimony-section img" id="client-feedback">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -349,6 +338,7 @@
 <script src="js/video.min.js"></script>
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
+<script src="js/hompage.js"></script>
 <script src="js/footer.js"></script>
 
 <script async src="js/email-webhook.js"></script>
@@ -394,15 +384,5 @@
 	});
 </script>
 
-<!-- Append global bg image -->
-<script>
-	document.addEventListener('DOMContentLoaded', () => {
-		const divSelector = document.createElement('div');
-		divSelector.style.backgroundImage = 'url(img/background-img.jpg)';
-		divSelector.classList.add('bg-fixed');
-
-		document.querySelector('body').appendChild(divSelector);
-	})
-</script>
 </body>
 </html>
