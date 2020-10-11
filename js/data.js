@@ -27,7 +27,7 @@ const newArrivalsData = [
         src: 'img/homepage/nu-blouse-01_1.jpg'
     },
     {
-        name: 'General Labcoat',
+        name: 'Picasso Labcoat',
         price: '850.000 VND',
         category: 'Blouse Nu',
         desc: '',
@@ -43,7 +43,7 @@ const newArrivalsData = [
         src: 'img/homepage/violet-scrub-01_1.jpg'
     },
     {
-        name: 'General Scrub',
+        name: 'Sentosa Scrub',
         price: '750.000 VND',
         category: 'Scrub Nam',
         desc: '',
