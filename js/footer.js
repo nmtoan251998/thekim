@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="authentic service-item">
                 <img class="mr-2" style="width: 40px; height: 40px" src="img/icons/checkmark.svg" alt="">
-                <p class="service-text">Cam kết hàng chính hãng</p>
+                <p class="service-text">Cam kết chính hãng</p>
             </div>
             <div class="codship service-item">
                 <img class="mr-2" style="width: 40px; height: 40px" src="img/icons/digital-contract.svg" alt="">
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <div class="row pt-2">
                     <div class="col-lg-4 mb-lg-0 mb-5 col-md-8 text-left">
-                        <h4 class="h4-title mb-3">
+                        <h4 class="h4-title mb-3" style="color: #000000 !important">
                             The KIM 2020
                         </h4>
                         <p class="footer-item text-black">
@@ -77,10 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h4 class=""> Đối tác vận chuyển</h4>
                             <div class="branding-authorized-logo-container d-flex justify-content-start">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-viettelpost" src="img/footer/Viettelpost-logo.png" alt="image">
-                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-viettelpost" src="img/footer/giaohangtietkiem.jpg" alt="image">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-giaohangtietkiem" src="img/footer/giaohangtietkiem.jpg" alt="image">
                             </div>
                             <div class="branding-authorized-logo-container d-flex justify-content-start">
-                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-viettelpost" src="img/footer/vnpost.jpg" alt="image">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vipost" src="img/footer/vnpost.jpg" alt="image">
                             </div>
                         </div>
                     </div>

@@ -1075,10 +1075,10 @@ min-width: 60px;
 max-width: 60px;
 }
 
-.branding-authorized-logo-viettelpost {
+/* .branding-authorized-logo-viettelpost {
 min-width: 120px;
 max-width: 140px;
-}
+} */
 
 .featured-product-container {
 overflow: hidden;
@@ -1293,12 +1293,16 @@ padding-top: 150%;
 .author-img{
 background-image: url("../img/blahblah-min.jpg");
 }
-.branding-authorized-logo-viettelpost{
-width: 140px;
-height: 88px;
+.branding-authorized-logo-viettelpost, .branding-authorized-logo-giaohangtietkiem {
+    width: 100%;
+    min-width: 120px;
 }
-/*Custom video player*/
+.branding-authorized-logo-vipost {
+    width: 100%;
+    min-width: 100px;
+}
 
+/*Custom video player*/
 .vjs-poster{
 background-size: cover!important;
 }

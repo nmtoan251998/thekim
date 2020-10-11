@@ -120,14 +120,20 @@ div.hb-colour-options input[type="radio"]#black + label:before {
 div.hb-colour-options input[type="radio"]#white + label:before {
 	background:#ffffff;
 }
-div.hb-colour-options input[type="radio"]#blue + label:before {
+div.hb-colour-options input[type="radio"]#blue-sky + label:before {
 	background: #7FB7CD;
 }
-div.hb-colour-options input[type="radio"]#dark-blue + label:before {
+div.hb-colour-options input[type="radio"]#carribean-blue + label:before {
 	background: #05204e;
 }
 div.hb-colour-options input[type="radio"]#teal + label:before {
 	background: #226D73;
+}
+div.hb-colour-options input[type="radio"]#red + label:before {
+	background: #812329;
+}
+div.hb-colour-options input[type="radio"]#purple + label:before {
+	background: #4B4F7C;
 }
 div.hb-colour-options input[type="radio"]:checked + label:after {
 	font-family: 'FontAwesome';
