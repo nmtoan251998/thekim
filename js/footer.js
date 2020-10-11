@@ -17,7 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="service">
             <div class="authentic service-item">
                 <img class="mr-2" style="width: 40px; height: 40px" src="img/icons/refund.svg" alt="">
-                <p class="service-text">Bảo hành, đổi trả trong 14 ngày</p>
+                <p class="service-text">Bảo hành trong 14 ngày</p>
+            </div>
+            <div class="authentic service-item">
+                <img class="mr-2" style="width: 40px; height: 40px" src="img/icons/refund.svg" alt="">
+                <p class="service-text">Hỗ trợ đổi trả nếu không vừa size</p>
             </div>
             <div class="codship service-item">
                 <img class="mr-2" style="width: 40px; height: 40px" src="img/icons/plane.svg" alt="">

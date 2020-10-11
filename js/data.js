@@ -88,7 +88,7 @@ const scrubData = [
         src: 'img/products/scrub/violet-scrub-04_1.jpg'
     },
     {
-        name: 'General Scrub',
+        name: 'Sentosa Scrub',
         price: '750.000 VND',
         category: 'Scrub Nam',
         desc: '',
@@ -96,7 +96,7 @@ const scrubData = [
         src: 'img/products/scrub/nam-scrub-02_2.jpg'
     },
     {
-        name: 'General Scrub',
+        name: 'Sentosa Scrub',
         price: '750.000 VND',
         category: 'Scrub Nam',
         desc: '',
@@ -107,7 +107,7 @@ const scrubData = [
 
 const blouseData = [
     {
-        name: 'General Labcoat',
+        name: 'Jessica Labcoat',
         price: '850.000 VND',
         category: 'Blouse',
         desc: '',
@@ -115,7 +115,7 @@ const blouseData = [
         src: 'img/products/blouse/nu-blouse-01_1.jpg',
     },
     {
-        name: 'General Labcoat',
+        name: 'Jessica Labcoat',
         price: '850.000 VND',
         category: 'Blouse',
         desc: '',
@@ -123,7 +123,7 @@ const blouseData = [
         src: 'img/products/blouse/nu-blouse-01_2.jpg',
     },
     {
-        name: 'General Labcoat',
+        name: 'Jessica Labcoat',
         price: '850.000 VND',
         category: 'Blouse',
         desc: '',
@@ -131,7 +131,7 @@ const blouseData = [
         src: 'img/products/blouse/nu-blouse-01_3.jpg',
     },
     {
-        name: 'General Labcoat',
+        name: 'Jessica Labcoat',
         price: '850.000 VND',
         category: 'Blouse',
         desc: '',
@@ -171,6 +171,22 @@ const blouseData = [
         src: 'img/products/blouse/nu-blouse-02_4.png',
     },
     {
+        name: 'President Labcoat',
+        price: '2.250.000 VND',
+        category: 'Blouse Nam',
+        desc: '',
+        link: 'product-detail.html?product=nam-blouse-02',
+        src: 'img/products/blouse/nam-blouse-02_1.jpg',
+    },
+    {
+        name: 'President Labcoat',
+        price: '2.250.000 VND',
+        category: 'Blouse Nam',
+        desc: '',
+        link: 'product-detail.html?product=nam-blouse-02',
+        src: 'img/products/blouse/nam-blouse-02_2.jpg',
+    },
+    {
         name: 'Picasso Labcoat',
         price: '1.150.000 VND',
         category: 'Scrub Nam',
@@ -185,22 +201,6 @@ const blouseData = [
         desc: '',
         link: 'product-detail.html?product=nam-blouse-01',
         src: 'img/products/blouse/nam-blouse-01_2.jpg',
-    },
-    {
-        name: 'Picasso Labcoat',
-        price: '1.150.000 VND',
-        category: 'Scrub Nam',
-        desc: '',
-        link: 'product-detail.html?product=nam-blouse-01',
-        src: 'img/products/blouse/nam-blouse-01_3.jpg',
-    },
-    {
-        name: 'Picasso Labcoat',
-        price: '1.150.000 VND',
-        category: 'Scrub Nam',
-        desc: '',
-        link: 'product-detail.html?product=nam-blouse-01',
-        src: 'img/products/blouse/nam-blouse-01_4.jpg',
     },
 ];
 // End AllProduct page Data

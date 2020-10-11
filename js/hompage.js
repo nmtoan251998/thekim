@@ -1,4 +1,3 @@
-
 function appendClientFeedback() {
 	const clientSaidDataContainer = document.querySelector('#client-said-data-container');
 	let content = '';
@@ -8,8 +7,7 @@ function appendClientFeedback() {
 			ava: 'img/customers/customer-01.jpg',
 			name: 'Thạc sĩ, Bác sĩ Trần Hoàng Duy',
 			title: 'Giảng viên trường Đại học Y Dược Cần Thơ',
-			feedback: 'Áo Blouse rất vừa, đẹp và sang trọng. Chất vải mặc vào rất thoải mái.',
-			link: '',
+			feedback: 'Lần đầu biết đến The KIM, điều làm tôi ấn tượng nhất là chiếc hộp siêu cao cấp và sang trọng, cảm giác thật tuyệt vời khi được mở hộp và khám phá sản phẩm. Khi được mặc chiếc áo lên người thực sự rất đẹp, từng đường may rất chắc chắn và form áo rất vừa vặn, sang trọng. Cám ơn The KIM mang đến cho tôi một sản phẩm thật tuyệt vời"',
 		},
 		{
 			ava: 'img/customers/customer-02.jpg',
@@ -28,6 +26,12 @@ function appendClientFeedback() {
 			name: 'Nhà thuốc ưu tú, Bác sĩ CK 2 Nguyễn Trọng Phương',
 			title: 'Giám đốc bệnh viện Hải Châu, Đà Nẵng',
 			feedback: 'Cảm ơn The KIM cho tôi trải nghiệm 1 chiếc áo Blouse với chất liệu vải cao cấp, mặc vào rất sang trọng và thoải mái, đặc biệt thêu tên rất đẹp. Được đựng trong 1 chiếc hộp rất cao cấp và sang trọng. Đánh giá 5 sao cho sản phẩm.'
+		},
+		{
+			ava: 'img/customers/customer-05.jpg',
+			name: 'Trương Huỳnh Duy',
+			title: 'Đại học Y Dược Cần Thơ',
+			feedback: 'Biết đến The Kim từ những ngày đầu. Dịch vụ và chất lượng luôn uy tín, làm hài lòng những khách hàng khó tính nhất. Lần trở lại này, The Kim đã đưa đến cho nhân viên y tế những chiếc áo blouse thật sự tốt và đẹp, từ chất liệu đến kiểu dáng. Thật tự hào khi khoác lên người chiếc áo blouse chất liệu nhập khẩu nhưng MADE IN VIETNAM. Chúc The Kim sẽ ngày càng phát triển và vươn xa hơn nữa !!'
 		},
 	]
 

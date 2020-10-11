@@ -55,13 +55,32 @@ const blousenam01 = {
     ],
 }
 
+const blousenam02 = {
+    infor: {
+        material: '60% cotton, 40% poliester - Cotton Silk USA',
+        height: '110 cm',
+        width: '',
+    },
+    name: 'President Labcoat',
+    price: '2.250.000 VND',
+    desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
+    colors: [
+        COLOR_PALETTES.white,
+    ],
+    sizes: MEN_LABCOAT_SIZES,
+    imgSrc: [
+        'img/products/blouse/nam-blouse-02_1.jpg',
+        'img/products/blouse/nam-blouse-02_2.jpg',
+    ],
+}
+
 const blousenu01 = {
     infor: {
         material: '60% cotton, 40% poliester - Cotton Silk USA',
         height: '110 cm',
         width: '',
     },
-    name: 'General Labcoat',
+    name: 'Jessica Labcoat',
     price: '850.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
@@ -100,10 +119,10 @@ const blousenu02 = {
 const namscrub01 = {
     infor: {
         material: 'Cotton Slim Cool, Italy',
-        height: 'Theo size',
-        width: 'Theo size',
+        height: '62cm',
+        width: '58cm',
     },
-    name: 'Men Scrub',
+    name: 'Sentosa Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
@@ -122,10 +141,10 @@ const namscrub01 = {
 const namscrub02 = {
     infor: {
         material: 'Cotton Slim Cool, Italy',
-        height: 'Theo size',
-        width: 'Theo size',
+        height: '62cm',
+        width: '58cm',
     },
-    name: 'Men Scrub',
+    name: 'Sentosa Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
@@ -147,13 +166,14 @@ const namscrub02 = {
 const violetscrub01 = {
     infor: {
         material: 'Cotton Slim Cool, Italy',
-        height: 'Theo size',
-        width: 'Theo size',
+        height: '57cm',
+        width: '45cm',
     },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
+        COLOR_PALETTES.white,
         COLOR_PALETTES.teal,
         COLOR_PALETTES.carribean_blue,
         COLOR_PALETTES.sky_blue,
@@ -172,13 +192,14 @@ const violetscrub01 = {
 const violetscrub02 = {
     infor: {
         material: 'Cotton Slim Cool, Italy',
-        height: 'Theo size',
-        width: 'Theo size',
+        height: '57cm',
+        width: '45cm',
     },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
+        COLOR_PALETTES.white,
         COLOR_PALETTES.teal,
         COLOR_PALETTES.carribean_blue,
         COLOR_PALETTES.sky_blue,
@@ -197,13 +218,14 @@ const violetscrub02 = {
 const violetscrub03 = {
     infor: {
         material: 'Cotton Slim Cool, Italy',
-        height: 'Theo size',
-        width: 'Theo size',
+        height: '57cm',
+        width: '45cm',
     },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
+        COLOR_PALETTES.white,
         COLOR_PALETTES.teal,
         COLOR_PALETTES.carribean_blue,
         COLOR_PALETTES.sky_blue,
@@ -222,13 +244,14 @@ const violetscrub03 = {
 const violetscrub04 = {
     infor: {
         material: 'Cotton Slim Cool, Italy',
-        height: 'Theo size',
-        width: 'Theo size',
+        height: '57cm',
+        width: '45cm',
     },
     name: 'Violet Scrub',
     price: '750.000 VND',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
+        COLOR_PALETTES.white,
         COLOR_PALETTES.teal,
         COLOR_PALETTES.carribean_blue,
         COLOR_PALETTES.sky_blue,
@@ -381,6 +404,7 @@ function renderMenu() {
 
     const ProductEnums = {
         nam_blouse_01: 'nam-blouse-01',
+        nam_blouse_02: 'nam-blouse-02',
         nu_blouse_01: 'nu-blouse-01',
         nu_blouse_02: 'nu-blouse-02',
         nam_scrub_01: 'nam-scrub-01',
@@ -394,6 +418,9 @@ function renderMenu() {
     switch(product) {
         case ProductEnums.nam_blouse_01:
             innerProduct(blousenam01);
+            break;
+        case ProductEnums.nam_blouse_02:
+            innerProduct(blousenam02);
             break;
         case ProductEnums.nu_blouse_01:
             innerProduct(blousenu01);
