@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
   position: relative; }
-  .container .section:nth-child(odd) .fp-tableCell {
+  .container .section:nth-child(even) .fp-tableCell {
     justify-content: flex-end; }
   .container .section .fp-tableCell {
     box-sizing: border-box;
