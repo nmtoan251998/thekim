@@ -18,7 +18,8 @@ function appendProductItems(selector, data) {
                                 ${item.name}
                             </a>
 
-                            <span class="cl3">${item.price}</span>
+                            <span class="cl3">${item.price} ~ ${item.priceDollar} $</span>
+                            <span class="cl3"></span>
                         </div>
                     </div>
                 </div>

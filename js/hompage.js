@@ -1,7 +1,7 @@
 function appendClientFeedback() {
 	const clientSaidDataContainer = document.querySelector('#client-said-data-container');
 	let content = '';
-	
+
 	const data = [
 		{
 			ava: 'img/customers/customer-01.jpg',
@@ -81,7 +81,7 @@ function appendNewArrivalData() {
 								${item.name}
 							</a>
 
-							<span class=" cl3">${item.price}</span>
+							<span class=" cl3">${item.price}  ~ ${item.priceDollar} $</span>
 						</div>
 					</div>
 				</div>
@@ -112,7 +112,8 @@ function appendBestSellerData() {
 
 				<div class="mb-4">
 					<h3 class="text-black h5">Price:</h3>
-					<div class="price">${bestSellerData01.price}</div>
+					<div class="price">${bestSellerData01.price} ~ ${bestSellerData01.priceDollar} $</div>
+					<div class="price"></div>
 				</div>
 				<p>
 					<a target="_blank" href="https://www.facebook.com/thekimblousecantho" class="all-product-btn">Mua ngay</a>
@@ -135,7 +136,8 @@ function appendBestSellerData() {
 
 				<div class="mb-4">
 					<h3 class="text-black h5">Price:</h3>
-					<div class="price">${bestSellerData02.price}</div>
+					<div class="price">${bestSellerData02.price} ~ ${bestSellerData02.priceDollar} $</div>
+					<div class="price"></div>
 				</div>
 				<p>
 					<a target="_blank" href="https://www.facebook.com/thekimblousecantho" class="all-product-btn">Mua ngay</a>
