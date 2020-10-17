@@ -32,12 +32,67 @@ const COLOR_PALETTES = {
 const MEN_SCRUB_SIZES = ['S','M','L','XL', 'XXL'];
 const MEN_LABCOAT_SIZES = ['S','M','L','XL','XXL'];
 
-const WOMEN_LABCOAT_SIZES = ['S','M','L'];
-const WOMEN_SCRUB_SIZES = ['S','M','L'];
+const WOMEN_LABCOAT_SIZES = ['S','M','L', 'XL', 'XXL'];
+const WOMEN_SCRUB_SIZES = ['S','M','L', 'XL', 'XXL'];
 
+const MEN_SIZES_DETAIL = [
+    {
+        size: 'S',
+        height: '1m60-1m65',
+        width: '55-60kg'
+    },
+    {
+        size: 'M',
+        height: '1m64-1m69',
+        width: '60-65kg',
+    },
+    {
+        size: 'L',
+        height: '1m70-1m74',
+        width: '66-70kg',
+    },
+    {
+        size: 'XL',
+        height: '1m74-1m76',
+        width: '70-76kg',
+    },
+    {
+        size: 'XXL',
+        height: '1m65-1m77',
+        width: '76-80kg',
+    },
+]
 
+const WOMEN_SIZES_DETAIL = [
+    {
+        size: 'S',
+        height: '1m48-1m53',
+        width: '38-43kg'
+    },
+    {
+        size: 'M',
+        height: '1m53-1m55',
+        width: '43-46kg',
+    },
+    {
+        size: 'L',
+        height: '1m53-1m58',
+        width: '46-53kg',
+    },
+    {
+        size: 'XL',
+        height: '1m55-1m62',
+        width: '53-57kg',
+    },
+    {
+        size: 'XXL',
+        height: '1m55-1m66',
+        width: '57-66kg',
+    },
+]
 
 const blousenam01 = {
+    gender: 'male',
     infor: {
         material: '60% cotton, 40% poliester - Cotton Silk USA',
         height: '110 cm',
@@ -59,6 +114,7 @@ const blousenam01 = {
 }
 
 const blousenam02 = {
+    gender: 'male',
     infor: {
         material: '60% cotton, 40% poliester - Cotton Silk USA',
         height: '110 cm',
@@ -78,6 +134,7 @@ const blousenam02 = {
 }
 
 const blousenu01 = {
+    gender: 'female',
     infor: {
         material: '60% cotton, 40% poliester - Cotton Silk USA',
         height: '110 cm',
@@ -99,6 +156,7 @@ const blousenu01 = {
 }
 
 const blousenu02 = {
+    gender: 'female',
     infor: {
         material: '60% cotton, 40% poliester - Cotton Silk USA',
         height: '110 cm',
@@ -120,6 +178,7 @@ const blousenu02 = {
 }
 
 const namscrub01 = {
+    gender: 'male',
     infor: {
         material: 'Cotton Slim Cool, Italy',
         height: '62cm',
@@ -145,6 +204,7 @@ const namscrub01 = {
 }
 
 const namscrub02 = {
+    gender: 'male',
     infor: {
         material: 'Cotton Slim Cool, Italy',
         height: '62cm',
@@ -170,6 +230,7 @@ const namscrub02 = {
 }
 
 const violetscrub01 = {
+    gender: 'female',
     infor: {
         material: 'Cotton Slim Cool, Italy',
         height: '57cm',
@@ -196,6 +257,7 @@ const violetscrub01 = {
 }
 
 const violetscrub02 = {
+    gender: 'female',
     infor: {
         material: 'Cotton Slim Cool, Italy',
         height: '57cm',
@@ -222,6 +284,7 @@ const violetscrub02 = {
 }
 
 const violetscrub03 = {
+    gender: 'female',
     infor: {
         material: 'Cotton Slim Cool, Italy',
         height: '57cm',
@@ -248,6 +311,7 @@ const violetscrub03 = {
 }
 
 const violetscrub04 = {
+    gender: 'female',
     infor: {
         material: 'Cotton Slim Cool, Italy',
         height: '57cm',
@@ -329,17 +393,39 @@ function innerProduct(data) {
     productSize.innerHTML = sizeContent;
 
     const productInforTab = document.querySelector('#information');
-    const productDescTab = document.querySelector('#description');
+    const productDescTab = document.querySelector('#product-size-detail-container');
 
-    let productDescTabContent = `
-        <div class="how-pos2 p-lr-15-md">
-            <p class="stext-102 cl6">
-                ${data.desc}
-            </p>
-        </div>`;
+    let productDescTabContent = '';
+    if (data.gender === 'male') {
+        productDescTabContent = renderSizeDetail(MEN_SIZES_DETAIL);
+    } else {
+        productDescTabContent = renderSizeDetail(WOMEN_SIZES_DETAIL);
+    }
+
+    function renderSizeDetail(details) {
+        let content = '';
+        details.forEach(sizeDetail => {
+            content += `
+                <li class="flex-w flex-t p-b-7">
+                    <span class="stext-102 cl3 size-205">
+                        ${sizeDetail.size}
+                    </span>
+
+                    <span class="stext-102 cl6 size-206">
+                        ${sizeDetail.height}
+                    </span>
+
+                    <span class="stext-102 cl6 size-206">
+                        ${sizeDetail.width}
+                    </span>
+                </li>
+            `;
+        })
+
+        return content;
+    }
 
     productDescTab.innerHTML = productDescTabContent;
-    console.log(data);
 
     const sizeInfor = data.sizes.map(size => ` ${size}`);
     const colorInfor = data.colors.map(color => ` ${color.label}`);

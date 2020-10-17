@@ -2175,11 +2175,12 @@
   }
 
   .size-205 {
-    width: 145px;
+    width: 20%;
   }
 
   .size-206 {
-    width: calc(100% - 145px);
+    /* width: calc(100% - 145px); */
+    width: 40%;
   }
 
   .size-207 {
