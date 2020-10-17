@@ -115,6 +115,24 @@ const scrubData = [
         link: 'product-detail.html?product=nam-scrub-01',
         src: 'img/products/scrub/nam-scrub-01_1.jpg'
     },
+    {
+        name: 'Sentosa Scrub',
+        price: '750.000 VND',
+        priceDollar: "33",
+        category: 'Scrub Nam',
+        desc: '',
+        link: 'product-detail.html?product=nam-scrub-03',
+        src: 'img/products/scrub/nam-scrub-03_1.jpg'
+    },
+    {
+        name: 'Sentosa Scrub',
+        price: '750.000 VND',
+        priceDollar: "33",
+        category: 'Scrub Nam',
+        desc: '',
+        link: 'product-detail.html?product=nam-scrub-04',
+        src: 'img/products/scrub/nam-scrub-04_1.jpg'
+    },
 ];
 
 const blouseData = [

@@ -228,6 +228,55 @@ const namscrub02 = {
         'img/products/scrub/nam-scrub-02_4.jpg',
     ],
 }
+const namscrub03 = {
+    gender: 'male',
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: '62cm',
+        width: '58cm',
+    },
+    name: 'Sentosa Scrub',
+    price: '750.000 VND',
+    desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Men's Scrub Pants.",
+    colors: [
+        COLOR_PALETTES.teal,
+        COLOR_PALETTES.carribean_blue,
+        COLOR_PALETTES.sky_blue,
+        COLOR_PALETTES.red,
+        COLOR_PALETTES.purple,
+    ],
+    sizes: MEN_SCRUB_SIZES,
+    imgSrc: [
+        'img/products/scrub/nam-scrub-03_1.jpg',
+        'img/products/scrub/nam-scrub-03_2.jpg',
+        'img/products/scrub/nam-scrub-03_3.jpg',
+    ],
+}
+const namscrub04 = {
+    gender: 'male',
+    infor: {
+        material: 'Cotton Slim Cool, Italy',
+        height: '62cm',
+        width: '58cm',
+    },
+    name: 'Sentosa Scrub',
+    price: '750.000 VND',
+    desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Men's Scrub Pants.",
+    colors: [
+        COLOR_PALETTES.teal,
+        COLOR_PALETTES.carribean_blue,
+        COLOR_PALETTES.sky_blue,
+        COLOR_PALETTES.red,
+        COLOR_PALETTES.purple,
+    ],
+    sizes: MEN_SCRUB_SIZES,
+    imgSrc: [
+        'img/products/scrub/nam-scrub-04_1.jpg',
+        'img/products/scrub/nam-scrub-04_2.jpg',
+        'img/products/scrub/nam-scrub-04_3.jpg',
+        'img/products/scrub/nam-scrub-04_4.jpg',
+    ],
+}
 
 const violetscrub01 = {
     gender: 'female',
@@ -501,6 +550,8 @@ function renderMenu() {
         nu_blouse_02: 'nu-blouse-02',
         nam_scrub_01: 'nam-scrub-01',
         nam_scrub_02: 'nam-scrub-02',
+        nam_scrub_03: 'nam-scrub-03',
+        nam_scrub_04: 'nam-scrub-04',
         violet_scrub_01: 'violet-scrub-01',
         violet_scrub_02: 'violet-scrub-02',
         violet_scrub_03: 'violet-scrub-03',
@@ -525,6 +576,12 @@ function renderMenu() {
             break;
         case ProductEnums.nam_scrub_02:
             innerProduct(namscrub02);
+            break;
+        case ProductEnums.nam_scrub_03:
+            innerProduct(namscrub03);
+            break;
+        case ProductEnums.nam_scrub_04:
+            innerProduct(namscrub04);
             break;
         case ProductEnums.violet_scrub_01:
             innerProduct(violetscrub01);
