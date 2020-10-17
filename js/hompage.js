@@ -13,7 +13,7 @@ function appendClientFeedback() {
 			ava: 'img/customers/customer-02.jpg',
 			name: 'Ho Le Bao An',
 			title: 'CEO & Founder <a href="https://www.facebook.com/drholebaoan">Dr.Tony Cosmetic Dentist & Invisalign Provider</a>',
-			feedback: 'Chất liệu vải đẹp, mặc rất vừa vặn, mát và sang trọng.'
+			feedback: 'Tôi đã trải nghiệm dòng Srub và áo Blouse của The KIM, áo thực sự rất đẹp mặc vào cực kì đứng dáng, chất liệu nhìn rất xịn, Srub chất liệu nhẹ mặc vào rất mát và thoải mái. Cách làm việc rất uy tín và có nhiều ưu đãi cho khách hàng thân thiết. Sẽ luôn ủng hộ sản phẩm The KIM.'
 		},
 		{
 			ava: 'img/customers/customer-03.jpg',
