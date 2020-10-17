@@ -1295,7 +1295,7 @@ background-image: url("../img/blahblah-min.jpg");
 }
 .branding-authorized-logo-viettelpost, .branding-authorized-logo-giaohangtietkiem {
     width: 100%;
-    min-width: 120px;
+    min-width: 100px;
 }
 .branding-authorized-logo-vipost {
     width: 100%;
