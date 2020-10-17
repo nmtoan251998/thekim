@@ -112,12 +112,11 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         <div class="cooperation mt-2">
-            <p class="cooperation-text" style="position: relative">The KIM
-                <span style="font-size: 65%; position: absolute; left: 6.4%; top: -8px">®</span>
-                2020 - OFFICIAL WEBSITE | VIETNAM | SINGAPORE | THAILAND | INDONESIA | HOLLAND | CAMPUCHIA | AMERICA
+        <p class="cooperation-text" style="position: relative">
+        The KIM 2020 - OFFICIAL WEBSITE | VIETNAM | SINGAPORE | THAILAND | INDONESIA | HOLLAND | CAMPUCHIA | AMERICA
             </p>
         </div>
-        <div class="cooperation" style="background-color: #ffffff">
+        <div class="cooperation" style="background-color: #ffffff; padding: 10px 0; font-size: 90%">
             <p class="cooperation-text" style="color: #000000; font-size: 90%; text-transform: uppercase;">Thương hiệu đã đăng ký bảo hộ độc quyền.</p>
         </div>
     `;
