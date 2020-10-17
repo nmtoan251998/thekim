@@ -32,8 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="container">
 
                 <div class="row pt-2">
+                
                     <div class="col-lg-4 mb-lg-0 mb-5 col-md-8 text-left">
-                        <h4 class="h4-title mb-3" style="color: #000000 !important">
+                    
+                        <h4 class="h4-title mb-3 text-left" style="color: #000000 !important">
                             The KIM 2020
                         </h4>
                         <p class="footer-item text-black">
@@ -60,36 +62,40 @@ document.addEventListener('DOMContentLoaded', () => {
                             </a>
                         </p>
 
-                        <h4 class="mt-5 mb-3 ">Hình thức thanh toán</h4>
+                        
+                        
+                        <img src="img/footer/bct-5Sz.png" alt="">
+
+                    </div>
+                    <div class="col-lg-4 mb-lg-0 mb-md-5 mb-1 col-md-4 col-6">
+                        <div class="text-left">
+                            <h4 class=""> Đối tác vận chuyển</h4>
+                            <div class="branding-authorized-logo-container d-flex justify-content-start">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-viettelpost" src="img/footer/Viettelpost-logo.png" alt="image">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-giaohangtietkiem" src="img/footer/giaohangtietkiem.jpg" alt="image">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vipost" src="img/footer/vnpost.jpg" alt="image">
+
+                            </div>
+                            
+                        <h4 class="mt-1 mb-3 ">Hình thức thanh toán</h4>
                         <div class="branding-authorized-logo-container">
                             <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vnpay" src="img/footer/vnpay-aWk.png" alt="image">
                             <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-momo" src="img/footer/momo-5Wx.png" alt="image">
                             <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-mastercard" src="img/footer/mastercard.png" alt="image">
                             <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-visa" src="img/footer/visa.png" alt="image">
                         </div>
-
-                    </div>
-                    <div class="col-lg-3 mb-lg-0 mb-md-5 mb-1 col-md-4 col-6">
-                        <a class="mb-3 d-lg-inline-block d-flex justify-content-start" href="https://www.facebook.com/thekimblousecantho" target="_blank">
+                        </div>
+                        <a class="mb-1 d-flex justify-content-start" href="https://www.facebook.com/thekimblousecantho" target="_blank">
                             <img loading=lazy
                                     src="img/qr-code.png"
                                     alt="image"
                                     style="height: 192px; width: 150px; object-fit: contain"
                             >
                         </a>
-                        <div class="text-left mt-4">
-                            <h4 class=""> Đối tác vận chuyển</h4>
-                            <div class="branding-authorized-logo-container d-flex justify-content-start">
-                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-viettelpost" src="img/footer/Viettelpost-logo.png" alt="image">
-                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-giaohangtietkiem" src="img/footer/giaohangtietkiem.jpg" alt="image">
-                            </div>
-                            <div class="branding-authorized-logo-container d-flex justify-content-start">
-                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vipost" src="img/footer/vnpost.jpg" alt="image">
-                            </div>
-                        </div>
+                        
                     </div>
 
-                    <div class="col-lg-5">
+                    <div class="col-lg-4">
                         <div class="map">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1964.322360612349!2d105.78240215791435!3d10.046147539291079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a062a9ca85f2ed%3A0x35c64491934183e0!2zMTE4LCAzMCBMw70gSOG7k25nIFRoYW5oLCBDw6FpIEto4bq_LCBOaW5oIEtp4buBdSwgQ-G6p24gVGjGoSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1601687657493!5m2!1svi!2sus"
