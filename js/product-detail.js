@@ -132,6 +132,28 @@ const blousenam02 = {
     ],
 }
 
+const blousenam03 = {
+    gender: 'male',
+    infor: {
+        material: '60% cotton, 40% poliester - Cotton Silk USA',
+        height: '110 cm',
+        width: '',
+    },
+    name: 'General Labcoat',
+    price: '850.000 VND (~$37)',
+    desc: "Simple & Tailored Non-Stretch Scrub. Best with the Classic Fit Men's Labcoat.",
+    colors: [
+        COLOR_PALETTES.white,
+    ],
+    sizes: MEN_LABCOAT_SIZES,
+    imgSrc: [
+        'img/products/blouse/nam-blouse-03_1.jpg',
+        'img/products/blouse/nam-blouse-03_2.jpg',
+        'img/products/blouse/nam-blouse-03_3.jpg',
+        'img/products/blouse/nam-blouse-03_4.jpg',
+    ],
+}
+
 const blousenu01 = {
     gender: 'female',
     infor: {
@@ -547,6 +569,7 @@ function renderMenu() {
     const ProductEnums = {
         nam_blouse_01: 'nam-blouse-01',
         nam_blouse_02: 'nam-blouse-02',
+        nam_blouse_03: 'nam-blouse-03',
         nu_blouse_01: 'nu-blouse-01',
         nu_blouse_02: 'nu-blouse-02',
         nam_scrub_01: 'nam-scrub-01',
@@ -565,6 +588,9 @@ function renderMenu() {
             break;
         case ProductEnums.nam_blouse_02:
             innerProduct(blousenam02);
+            break;
+        case ProductEnums.nam_blouse_03:
+            innerProduct(blousenam03);
             break;
         case ProductEnums.nu_blouse_01:
             innerProduct(blousenu01);
