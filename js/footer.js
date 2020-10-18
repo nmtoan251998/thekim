@@ -63,8 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         </p>
 
                         
-                        
-                        <img src="img/footer/bct-5Sz.png" alt="">
+                        <a class="mb-1 d-flex justify-content-start" href="https://www.facebook.com/thekimblousecantho" target="_blank">
+                            <img loading=lazy
+                                    src="img/qr-code.png"
+                                    alt="image"
+                                    style="height: 192px; width: 150px; object-fit: contain"
+                            >
+                        </a>
+
 
                     </div>
                     <div class="col-lg-4 mb-lg-0 mb-md-5 mb-1 col-md-4 col-12">
@@ -78,21 +84,15 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vipost" src="img/footer/vnpost.jpg" alt="image">
                             </div>
                             
-                        <h4 class="mt-1 mb-3 ">Hình thức thanh toán</h4>
-                        <div class="branding-authorized-logo-container">
-                            <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vnpay" src="img/footer/vnpay-aWk.png" alt="image">
-                            <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-momo" src="img/footer/momo-5Wx.png" alt="image">
-                            <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-mastercard" src="img/footer/mastercard.png" alt="image">
-                            <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-visa" src="img/footer/visa.png" alt="image">
+                            <h4 class="mt-1 mb-3 ">Hình thức thanh toán</h4>
+                            <div class="branding-authorized-logo-container">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vnpay" src="img/footer/vnpay-aWk.png" alt="image">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-momo" src="img/footer/momo-5Wx.png" alt="image">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-mastercard" src="img/footer/mastercard.png" alt="image">
+                                <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-visa" src="img/footer/visa.png" alt="image">
+                            </div>
+                            <img class="my-2" src="img/footer/bct-5Sz.png" alt="">
                         </div>
-                        </div>
-                        <a class="mb-1 d-flex justify-content-start" href="https://www.facebook.com/thekimblousecantho" target="_blank">
-                            <img loading=lazy
-                                    src="img/qr-code.png"
-                                    alt="image"
-                                    style="height: 192px; width: 150px; object-fit: contain"
-                            >
-                        </a>
                         
                     </div>
 
