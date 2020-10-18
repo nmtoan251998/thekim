@@ -192,8 +192,8 @@ const blouseData = [
     // },
     // {
     //     name: 'Victoria Labcoat',
-    //     price: '1.150.000 VND',
-    //     priceDollar: "50",
+        // price: '1.150.000 VND',
+        // priceDollar: "50",
     //     category: 'Blouse',
     //     desc: '',
     //     link: 'product-detail.html?product=nu-blouse-02',
@@ -228,8 +228,8 @@ const blouseData = [
     },
     {
         name: 'Picasso Labcoat',
-        price: '850.000 VND',
-        priceDollar: "37",
+        price: '1.150.000 VND',
+        priceDollar: "50",
         category: 'Scrub Nam',
         desc: '',
         link: 'product-detail.html?product=nam-blouse-01',
@@ -237,8 +237,8 @@ const blouseData = [
     },
     {
         name: 'Picasso Labcoat',
-        price: '850.000 VND',
-        priceDollar: "37",
+        price: '1.150.000 VND',
+        priceDollar: "50",
         category: 'Scrub Nam',
         desc: '',
         link: 'product-detail.html?product=nam-blouse-01',

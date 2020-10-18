@@ -99,7 +99,7 @@ const blousenam01 = {
         width: '',
     },
     name: 'Picasso Labcoat',
-    price: '850.000 VND',
+    price: '1.150.000 VND (~$50)',
     desc: "Simple & Tailored Non-Stretch Scrub. Best with the Classic Fit Men's Labcoat.",
     colors: [
         COLOR_PALETTES.white,
@@ -109,7 +109,6 @@ const blousenam01 = {
         'img/products/blouse/nam-blouse-01_1.jpg',
         'img/products/blouse/nam-blouse-01_2.jpg',
         'img/products/blouse/nam-blouse-01_3.jpg',
-        'img/products/blouse/nam-blouse-01_4.jpg',
     ],
 }
 
@@ -121,7 +120,7 @@ const blousenam02 = {
         width: '',
     },
     name: 'President Labcoat',
-    price: '2.250.000 VND',
+    price: '2.250.000 VND (~$98)',
     desc: "Simple & Tailored Non-Stretch Scrub. Best with the Classic Fit Men's Labcoat.",
     colors: [
         COLOR_PALETTES.white,
@@ -141,7 +140,7 @@ const blousenu01 = {
         width: '',
     },
     name: 'Jessica Labcoat',
-    price: '850.000 VND',
+    price: '850.000 VND (~$37)',
     desc: "Simple & Tailored Non-Stretch Scrub. Best with the Classic Fit Women's Labcoat.",
     colors: [
         COLOR_PALETTES.white,
@@ -163,7 +162,7 @@ const blousenu02 = {
         width: '',
     },
     name: 'Victoria Labcoat',
-    price: '1.150.000 VND',
+    price: '1.150.000 VND (~$50)',
     desc: "Simple & Tailored Non-Stretch Scrub. Best with the Classic Fit Women's Labcoat.",
     colors: [
         COLOR_PALETTES.white,
@@ -185,7 +184,7 @@ const namscrub01 = {
         width: '58cm',
     },
     name: 'Sentosa Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Men's Scrub Pants.",
     colors: [
         COLOR_PALETTES.teal,
@@ -211,7 +210,7 @@ const namscrub02 = {
         width: '58cm',
     },
     name: 'Sentosa Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Men's Scrub Pants.",
     colors: [
         COLOR_PALETTES.teal,
@@ -228,6 +227,7 @@ const namscrub02 = {
         'img/products/scrub/nam-scrub-02_4.jpg',
     ],
 }
+
 const namscrub03 = {
     gender: 'male',
     infor: {
@@ -236,7 +236,7 @@ const namscrub03 = {
         width: '58cm',
     },
     name: 'Sentosa Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Men's Scrub Pants.",
     colors: [
         COLOR_PALETTES.teal,
@@ -252,6 +252,7 @@ const namscrub03 = {
         'img/products/scrub/nam-scrub-03_3.jpg',
     ],
 }
+
 const namscrub04 = {
     gender: 'male',
     infor: {
@@ -260,7 +261,7 @@ const namscrub04 = {
         width: '58cm',
     },
     name: 'Sentosa Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Men's Scrub Pants.",
     colors: [
         COLOR_PALETTES.teal,
@@ -286,7 +287,7 @@ const violetscrub01 = {
         width: '45cm',
     },
     name: 'Violet Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
         COLOR_PALETTES.white,
@@ -313,7 +314,7 @@ const violetscrub02 = {
         width: '45cm',
     },
     name: 'Violet Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
         COLOR_PALETTES.white,
@@ -340,7 +341,7 @@ const violetscrub03 = {
         width: '45cm',
     },
     name: 'Violet Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
         COLOR_PALETTES.white,
@@ -367,7 +368,7 @@ const violetscrub04 = {
         width: '45cm',
     },
     name: 'Violet Scrub',
-    price: '750.000 VND',
+    price: '750.000 VND (~$33)',
     desc: "Simple & Tailored Non-Stretch Scrub. Color options pair best with the Classic Fit Women's Scrub Pants.",
     colors: [
         COLOR_PALETTES.white,
