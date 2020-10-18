@@ -31,8 +31,8 @@ const newArrivalsData = [
     },
     {
         name: 'Picasso Labcoat',
-        price: '850.000 VND',
-        priceDollar: "37",
+        price: '1.150.000 VND',
+        priceDollar: "50",
         category: 'Blouse Nu',
         desc: '',
         link: 'product-detail.html?product=nam-blouse-01',
