@@ -79,10 +79,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="branding-authorized-logo-container d-flex justify-content-start">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-viettelpost" src="img/footer/Viettelpost-logo.png" alt="image">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-giaohangtietkiem" src="img/footer/giaohangtietkiem.jpg" alt="image">
-                            </div>
-                            <div class="branding-authorized-logo-container d-flex justify-content-start">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vipost" src="img/footer/vnpost.jpg" alt="image">
+
                             </div>
+                            
                             
                             <h4 class="mt-1 mb-3 ">Hình thức thanh toán</h4>
                             <div class="branding-authorized-logo-container">
