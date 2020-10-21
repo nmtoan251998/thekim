@@ -1048,10 +1048,13 @@ font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hel
 .branding-authorized-logo {
     object-fit: contain;
     margin-right: 3px;
+    display: inline-block;
+}
+.branding-authorized-logo-viettelpost, .branding-authorized-logo-giaohangtietkiem, .branding-authorized-logo-vipost{
+
     width: 120px;
     height: 78px;
 }
-
 
 .branding-authorized-logo-bct {
 min-width: 140px;
@@ -1297,11 +1300,11 @@ padding-top: 150%;
 background-image: url("../img/blahblah-min.jpg");
 }
 .branding-authorized-logo-viettelpost, .branding-authorized-logo-giaohangtietkiem {
-    width: 100%;
+    /*width: 100%;*/
     min-width: 120px;
 }
 .branding-authorized-logo-vipost {
-    width: 100%;
+    /*width: 100%;*/
     min-width: 100px;
 }
 
