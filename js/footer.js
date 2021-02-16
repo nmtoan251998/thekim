@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <div class="row pt-2">
                 
-                    <div class="col-lg-4 mb-lg-0 mb-5 col-md-8 text-left">
+                    <div class="col-lg-4 mb-lg-0 mb-lg-5 col-md-8 text-left">
                     
                         <h4 class="h4-title mb-3 text-left" style="color: #000000 !important">
                             The KIM 2020
@@ -73,10 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
                     </div>
-                    <div class="col-lg-4 mb-lg-0 mb-md-5 mb-1 col-md-4 col-12">
+                    <div class="col-lg-4 mb-lg-0 mb-md-5 mb-2 col-md-4 col-12">
                         <div class="text-left">
                             <h4 class=""> Đối tác vận chuyển</h4>
-                            <div class="branding-authorized-logo-container d-flex justify-content-start">
+                            <div class="branding-authorized-logo-container flex-wrap mb-lg-0 mb-3 d-flex justify-content-start">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-viettelpost" src="img/footer/Viettelpost-logo.png" alt="image">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-giaohangtietkiem" src="img/footer/giaohangtietkiem.jpg" alt="image">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vipost" src="img/footer/vnpost.jpg" alt="image">
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             
                             
                             <h4 class="mt-1 mb-3 ">Hình thức thanh toán</h4>
-                            <div class="branding-authorized-logo-container">
+                            <div class="branding-authorized-logo-container flex-wrap mb-3">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-vnpay" src="img/footer/vnpay-aWk.png" alt="image">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-momo" src="img/footer/momo-5Wx.png" alt="image">
                                 <img loading=lazy  class="branding-authorized-logo branding-authorized-logo-mastercard" src="img/footer/mastercard.png" alt="image">
